@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="box">
+    <div class="title-container">
+        <div class="title">{{ name }}</div>
+    </div>
+
+    <div class="main-text">
+        <p>
+            {{ n_rows }} rows, {{ n_features }} features.
+            Target: <strong>{{ target }}</strong>.
+            Detected task: <strong>{{ task }}</strong> ({{ n_classes }} distinct values).
+        </p>
+
+        <h3>First rows</h3>
+        <table border="1" cellpadding="4">
+            <tr>{% for c in columns %}<th>{{ c }}</th>{% endfor %}</tr>
+            {% for row in rows %}
+                <tr>{% for v in row %}<td>{{ v }}</td>{% endfor %}</tr>
+            {% endfor %}
+        </table>
+
+        <h3>Summary statistics</h3>
+        <table border="1" cellpadding="4">
+            <tr>{% for c in stats_columns %}<th>{{ c }}</th>{% endfor %}</tr>
+            {% for row in stats_rows %}
+                <tr>{% for v in row %}<td>{{ v }}</td>{% endfor %}</tr>
+            {% endfor %}
+        </table>
+
+        <p><a href="{% url 'project1:upload' %}">Upload a different dataset</a></p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="box">
+    <div class="title-container">
+        <div class="title">Project 1 – Upload a dataset</div>
+    </div>
+
+    <div class="main-text">
+        <p>Upload a CSV file. The first row must contain the feature names,
+           and the last column is treated as the target to predict.</p>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+
+        {% if error %}<p style="color: red;">{{ error }}</p>{% endif %}
+    </div>
+</div>
+{% endblock %}
