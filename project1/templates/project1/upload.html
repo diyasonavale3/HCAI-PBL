@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project1/style.css' %}">
+{% endblock %}
 {% block content %}
 <div class="box">
     <div class="title-container">
@@ -6,8 +12,7 @@
     </div>
 
     <div class="main-text">
-        <p>Upload a CSV file. The first row must contain the feature names,
-           and the last column is treated as the target to predict.</p>
+        <p>Upload a CSV file. </p>
 
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}

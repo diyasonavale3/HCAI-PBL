@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project1/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="box">
+    <div class="title-container">
+        <div class="title">Visualise the data</div>
+    </div>
+
+    <div class="main-text">
+        <form method="get">
+            <label>Problem type:
+                <select name="task">
+                    <option value="classification" {% if task == 'classification' %}selected{% endif %}>Classification</option>
+                    <option value="regression" {% if task == 'regression' %}selected{% endif %}>Regression</option>
+                </select>
+            </label>
+            <label>x-axis:
+                <select name="x">
+                    {% for f in features %}
+                        <option value="{{ f }}" {% if f == x %}selected{% endif %}>{{ f }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>y-axis:
+                <select name="y">
+                    {% for c in columns %}
+                        <option value="{{ c }}" {% if c == y %}selected{% endif %}>{{ c }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <button type="submit">Update plot</button>
+        </form>
+
+        <p><small>Auto-detected problem type: <strong>{{ detected }}</strong>. You can override it above.</small></p>
+
+        <img src="{{ image_url }}" alt="Scatter plot">
+
+        <p>
+            <a href="{% url 'project1:preview' %}">Back to preview</a> ·
+            <a href="{% url 'project1:upload' %}">Upload another dataset</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

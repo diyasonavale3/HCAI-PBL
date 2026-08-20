@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project1/style.css' %}">
+{% endblock %}
 {% block content %}
 <div class="box">
     <div class="title-container">
@@ -28,6 +34,7 @@
             {% endfor %}
         </table>
 
+        <p><a href="{% url 'project1:visualize' %}">Visualise this dataset</a></p>
         <p><a href="{% url 'project1:upload' %}">Upload a different dataset</a></p>
     </div>
 </div>

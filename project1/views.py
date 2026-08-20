@@ -1,5 +1,8 @@
 import os
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
+from matplotlib import pyplot as plt
 
 from django.conf import settings
 from django.shortcuts import render, redirect
@@ -79,3 +82,51 @@ def preview(request):
         'stats_rows': stats_rows,
     }
     return render(request, 'project1/preview.html', context)
+
+
+def visualize(request):
+    path = request.session.get('dataset_path')
+    if not path or not os.path.exists(path):
+        return redirect('project1:upload')
+
+    df = load_dataset(path)
+    target = df.columns[-1]
+    features = list(df.columns[:-1])
+
+    task = request.GET.get('task') or detect_task(df)
+    x = request.GET.get('x') or features[0]
+    y = request.GET.get('y') or (features[1] if len(features) > 1 else target)
+
+    if x not in df.columns or y not in df.columns:
+        x, y = features[0], target
+
+    filename = 'project1_scatter.png'
+    image_path = os.path.join(settings.MEDIA_ROOT, filename)
+
+    fig, ax = plt.subplots(figsize=(6, 4.5))
+    if task == 'classification':
+        for value in sorted(df[target].unique()):
+            subset = df[df[target] == value]
+            ax.scatter(subset[x], subset[y], label=str(value), alpha=0.8)
+        ax.legend(title=target)
+    else:
+        points = ax.scatter(df[x], df[y], c=df[target], cmap='viridis', alpha=0.8)
+        fig.colorbar(points, ax=ax, label=target)
+    ax.set_xlabel(x)
+    ax.set_ylabel(y)
+    ax.set_title(f"{y} vs {x}")
+    fig.tight_layout()
+    fig.savefig(image_path, dpi=110)
+    plt.close(fig)
+
+    context = {
+        'features': features,
+        'columns': list(df.columns),
+        'target': target,
+        'x': x,
+        'y': y,
+        'task': task,
+        'detected': detect_task(df),
+        'image_url': settings.MEDIA_URL + filename + '?t=' + str(os.path.getmtime(image_path)),
+    }
+    return render(request, 'project1/visualize.html', context)

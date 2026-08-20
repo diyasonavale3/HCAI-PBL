@@ -1,0 +1,50 @@
+/* The global .box is absolutely positioned and vertically centred, which
+   clips content taller than the viewport. Project 1 shows tables and plots,
+   so we switch to normal document flow and let the page scroll. */
+.box {
+    position: static;
+    transform: none;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.main-text form {
+    margin-bottom: 20px;
+}
+
+.main-text label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.main-text button {
+    width: auto;
+    padding: 0 25px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    text-align: right;
+}
+
+th {
+    background: #eef2f9;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
