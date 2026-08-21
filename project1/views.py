@@ -130,3 +130,107 @@ def visualize(request):
         'image_url': settings.MEDIA_URL + filename + '?t=' + str(os.path.getmtime(image_path)),
     }
     return render(request, 'project1/visualize.html', context)
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+from .forms import TrainingForm
+
+
+def make_model(name, setting):
+    if name == 'logistic':
+        return LogisticRegression(C=setting, max_iter=2000)
+    if name == 'tree':
+        return DecisionTreeClassifier(max_depth=setting, random_state=0)
+    return RandomForestClassifier(max_depth=setting, random_state=0)
+
+
+def train(request):
+    path = request.session.get('dataset_path')
+    if not path:
+        return redirect('project1:upload')
+
+    df = load_dataset(path)
+    features = list(df.columns[:-1])
+    target = df.columns[-1]
+
+    form = TrainingForm(request.GET or None)
+    context = {'form': form, 'target': target}
+
+    if request.GET and form.is_valid():
+        name = form.cleaned_data['model']
+        test_size = form.cleaned_data['test_size'] / 100
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            df[features], df[target], test_size=test_size, random_state=0)
+
+        settings_to_try = [0.01, 0.1, 1, 10, 100] if name == 'logistic' else [1, 2, 3, 5, 10]
+
+        results = []
+        for setting in settings_to_try:
+            model = make_model(name, setting)
+            model.fit(X_train, y_train)
+            score = accuracy_score(y_test, model.predict(X_test))
+            results.append({'setting': setting, 'score': round(score, 3)})
+
+        context['results'] = results
+        context['best'] = max(results, key=lambda r: r['score'])
+        context['n_train'] = len(X_train)
+        context['n_test'] = len(X_test)
+
+    return render(request, 'project1/train.html', context)
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+from .forms import TrainingForm
+
+
+def make_model(name, setting):
+    if name == 'logistic':
+        return LogisticRegression(C=setting, max_iter=2000)
+    if name == 'tree':
+        return DecisionTreeClassifier(max_depth=setting, random_state=0)
+    return RandomForestClassifier(max_depth=setting, random_state=0)
+
+
+def train(request):
+    path = request.session.get('dataset_path')
+    if not path:
+        return redirect('project1:upload')
+
+    df = load_dataset(path)
+    features = list(df.columns[:-1])
+    target = df.columns[-1]
+
+    form = TrainingForm(request.GET or None)
+    context = {'form': form, 'target': target}
+
+    if request.GET and form.is_valid():
+        name = form.cleaned_data['model']
+        test_size = form.cleaned_data['test_size'] / 100
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            df[features], df[target], test_size=test_size, random_state=0)
+
+        settings_to_try = [0.01, 0.1, 1, 10, 100] if name == 'logistic' else [1, 2, 3, 5, 10]
+
+        results = []
+        for setting in settings_to_try:
+            model = make_model(name, setting)
+            model.fit(X_train, y_train)
+            score = accuracy_score(y_test, model.predict(X_test))
+            results.append({'setting': setting, 'score': round(score, 3)})
+
+        context['results'] = results
+        context['best'] = max(results, key=lambda r: r['score'])
+        context['n_train'] = len(X_train)
+        context['n_test'] = len(X_test)
+
+    return render(request, 'project1/train.html', context)

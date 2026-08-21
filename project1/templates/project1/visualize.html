@@ -37,7 +37,7 @@
             <button type="submit">Update plot</button>
         </form>
 
-        <p><small>Auto-detected problem type: <strong>{{ detected }}</strong>. You can override it above.</small></p>
+        <p><small>Auto-detected problem type: <strong>{{ detected }}</strong>. Choose one from above.</small></p>
 
         <img src="{{ image_url }}" alt="Scatter plot">
 
@@ -47,4 +47,8 @@
         </p>
     </div>
 </div>
+        <form action="{% url 'project1:train' %}" method="get">
+            <button type="submit">Train a model</button>
+        </form>
+
 {% endblock %}
