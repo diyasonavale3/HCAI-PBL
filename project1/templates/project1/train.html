@@ -9,7 +9,9 @@
 <div class="box">
     <div class="title-container"><div class="title">Train a model</div></div>
     <div class="main-text">
-        <p>Predicting <strong>{{ target }}</strong>.</p>
+        <p>Predicting <strong>{{ target }}</strong>.
+           Detected problem type: <strong>{{ task }}</strong>,
+           so models are scored by {{ metric }}.</p>
 
         <form method="get">
             {{ form.as_p }}
@@ -17,16 +19,22 @@
         </form>
 
         {% if results %}
-            <p>Trained on {{ n_train }} examples, tested on {{ n_test }}.
-               Best accuracy: <strong>{{ best.score }}</strong>
-               at setting {{ best.setting }}.</p>
+            <h3>Choosing the hyperparameter</h3>
+            <p>{{ n_train }} examples for training, {{ n_val }} for validation,
+               {{ n_test }} held back for the final test.</p>
 
             <table>
-                <tr><th>setting</th><th>test accuracy</th></tr>
+                <tr><th>{{ param_label }}</th><th>train {{ metric }}</th><th>validation {{ metric }}</th></tr>
                 {% for r in results %}
-                    <tr><td>{{ r.setting }}</td><td>{{ r.score }}</td></tr>
+                    <tr><td>{{ r.setting }}</td><td>{{ r.train }}</td><td>{{ r.val }}</td></tr>
                 {% endfor %}
             </table>
+
+            <h3>Result</h3>
+            <p>Best {{ param_label }} on the validation set: <strong>{{ best_setting }}</strong>
+               ({{ metric }} {{ best_val }}).<br>
+               Measured once on the untouched test set:
+               <strong>{{ final_score }}</strong> {{ metric }}.</p>
         {% endif %}
 
         <p><a href="{% url 'project1:visualize' %}">Back to visualisation</a></p>

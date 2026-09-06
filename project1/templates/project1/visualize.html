@@ -17,7 +17,7 @@
             <label>Problem type:
                 <select name="task">
                     <option value="classification" {% if task == 'classification' %}selected{% endif %}>Classification</option>
-                    <option value="regression" {% if task == 'regression' %}selected{% endif %}>Regression</option>
+                    <option value="regression" {% if task == 'regression' %}selected{% endif %} {% if not target_is_numeric %}disabled{% endif %}>Regression</option>
                 </select>
             </label>
             <label>x-axis:
@@ -38,6 +38,9 @@
         </form>
 
         <p><small>Auto-detected problem type: <strong>{{ detected }}</strong>. Choose one from above.</small></p>
+        {% if task_note %}
+            <p><small><strong>Note:</strong> {{ task_note }}</small></p>
+        {% endif %}
 
         <img src="{{ image_url }}" alt="Scatter plot">
 

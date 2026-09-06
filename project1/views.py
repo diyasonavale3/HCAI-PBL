@@ -3,10 +3,15 @@ import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
-
 from django.conf import settings
 from django.shortcuts import render, redirect
 from .forms import DatasetUploadForm
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression, Ridge
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from sklearn.metrics import accuracy_score, r2_score
+from .forms import TrainingForm
 
 UPLOAD_DIR = os.path.join(settings.MEDIA_ROOT, 'uploads')
 
@@ -100,6 +105,12 @@ def visualize(request):
     if x not in df.columns or y not in df.columns:
         x, y = features[0], target
 
+    target_is_numeric = pd.api.types.is_numeric_dtype(df[target])
+    task_note = None
+    if task == 'regression' and not target_is_numeric:
+        task = 'classification'
+        task_note = "Regression needs a numeric target, but this dataset's target is categorical, so it's shown as classification instead."
+
     filename = 'project1_scatter.png'
     image_path = os.path.join(settings.MEDIA_ROOT, filename)
 
@@ -126,27 +137,31 @@ def visualize(request):
         'x': x,
         'y': y,
         'task': task,
+        'task_note': task_note,
+        'target_is_numeric': target_is_numeric,
         'detected': detect_task(df),
         'image_url': settings.MEDIA_URL + filename + '?t=' + str(os.path.getmtime(image_path)),
     }
     return render(request, 'project1/visualize.html', context)
 
 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-from .forms import TrainingForm
-
-
-def make_model(name, setting):
-    if name == 'logistic':
-        return LogisticRegression(C=setting, max_iter=2000)
+def make_model(name, setting, task):
+    if task == 'classification':
+        if name == 'linear':
+            return LogisticRegression(C=setting, max_iter=2000)
+        if name == 'tree':
+            return DecisionTreeClassifier(max_depth=setting, random_state=0)
+        return RandomForestClassifier(max_depth=setting, random_state=0)
+    if name == 'linear':
+        return Ridge(alpha=setting)
     if name == 'tree':
-        return DecisionTreeClassifier(max_depth=setting, random_state=0)
-    return RandomForestClassifier(max_depth=setting, random_state=0)
+        return DecisionTreeRegressor(max_depth=setting, random_state=0)
+    return RandomForestRegressor(max_depth=setting, random_state=0)
 
+def score_model(model, X, y, task):
+    if task == 'classification':
+        return accuracy_score(y, model.predict(X))
+    return r2_score(y, model.predict(X))
 
 def train(request):
     path = request.session.get('dataset_path')
@@ -156,81 +171,55 @@ def train(request):
     df = load_dataset(path)
     features = list(df.columns[:-1])
     target = df.columns[-1]
+    task = detect_task(df)
 
     form = TrainingForm(request.GET or None)
-    context = {'form': form, 'target': target}
+    context = {'form': form, 'target': target, 'task': task,
+               'metric': 'accuracy' if task == 'classification' else 'R squared'}
 
     if request.GET and form.is_valid():
         name = form.cleaned_data['model']
-        test_size = form.cleaned_data['test_size'] / 100
+        test_fraction = form.cleaned_data['test_size'] / 100
+        X = df[features]
+        y = df[target]
+        stratify = y if task == 'classification' else None
 
-        X_train, X_test, y_train, y_test = train_test_split(
-            df[features], df[target], test_size=test_size, random_state=0)
+        X_rest, X_test, y_rest, y_test = train_test_split(
+            X, y, test_size=test_fraction, random_state=0, stratify=stratify)
+        stratify_rest = y_rest if task == 'classification' else None
+        X_train, X_val, y_train, y_val = train_test_split(
+            X_rest, y_rest, test_size=0.25, random_state=0, stratify=stratify_rest)
 
-        settings_to_try = [0.01, 0.1, 1, 10, 100] if name == 'logistic' else [1, 2, 3, 5, 10]
-
-        results = []
-        for setting in settings_to_try:
-            model = make_model(name, setting)
-            model.fit(X_train, y_train)
-            score = accuracy_score(y_test, model.predict(X_test))
-            results.append({'setting': setting, 'score': round(score, 3)})
-
-        context['results'] = results
-        context['best'] = max(results, key=lambda r: r['score'])
-        context['n_train'] = len(X_train)
-        context['n_test'] = len(X_test)
-
-    return render(request, 'project1/train.html', context)
-
-
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-from .forms import TrainingForm
-
-
-def make_model(name, setting):
-    if name == 'logistic':
-        return LogisticRegression(C=setting, max_iter=2000)
-    if name == 'tree':
-        return DecisionTreeClassifier(max_depth=setting, random_state=0)
-    return RandomForestClassifier(max_depth=setting, random_state=0)
-
-
-def train(request):
-    path = request.session.get('dataset_path')
-    if not path:
-        return redirect('project1:upload')
-
-    df = load_dataset(path)
-    features = list(df.columns[:-1])
-    target = df.columns[-1]
-
-    form = TrainingForm(request.GET or None)
-    context = {'form': form, 'target': target}
-
-    if request.GET and form.is_valid():
-        name = form.cleaned_data['model']
-        test_size = form.cleaned_data['test_size'] / 100
-
-        X_train, X_test, y_train, y_test = train_test_split(
-            df[features], df[target], test_size=test_size, random_state=0)
-
-        settings_to_try = [0.01, 0.1, 1, 10, 100] if name == 'logistic' else [1, 2, 3, 5, 10]
+        if name == 'linear':
+            values = [0.01, 0.1, 1, 10, 100]
+            param_label = 'C' if task == 'classification' else 'alpha'
+        else:
+            values = [1, 2, 3, 5, 10]
+            param_label = 'max_depth'
 
         results = []
-        for setting in settings_to_try:
-            model = make_model(name, setting)
+        for setting in values:
+            model = make_model(name, setting, task)
             model.fit(X_train, y_train)
-            score = accuracy_score(y_test, model.predict(X_test))
-            results.append({'setting': setting, 'score': round(score, 3)})
+            results.append({
+                'setting': setting,
+                'train': round(score_model(model, X_train, y_train, task), 3),
+                'val': round(score_model(model, X_val, y_val, task), 3),
+                'model': model,
+            })
 
-        context['results'] = results
-        context['best'] = max(results, key=lambda r: r['score'])
-        context['n_train'] = len(X_train)
-        context['n_test'] = len(X_test)
+        best = max(results, key=lambda r: r['val'])
+        final_score = round(score_model(best['model'], X_test, y_test, task), 3)
+
+        context.update({
+            'results': [{k: r[k] for k in ('setting', 'train', 'val')} for r in results],
+            'best_setting': best['setting'],
+            'best_val': best['val'],
+            'final_score': final_score,
+            'param_label': param_label,
+            'n_train': len(X_train),
+            'n_val': len(X_val),
+            'n_test': len(X_test),
+        })
 
     return render(request, 'project1/train.html', context)

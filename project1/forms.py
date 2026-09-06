@@ -9,7 +9,9 @@ MODEL_CHOICES = [
 ]
 
 class TrainingForm(forms.Form):
-    model = forms.ChoiceField(choices=MODEL_CHOICES, label='Model')
-    test_size = forms.IntegerField(
-        min_value=10, max_value=50, initial=25)
-    
+    model = forms.ChoiceField(
+        choices=[('linear', 'Linear / logistic regression'),
+                 ('tree', 'Decision tree'),
+                 ('forest', 'Random forest')])
+    test_size = forms.IntegerField(min_value=10, max_value=50, initial=25,
+                                   label='Percent of data held back for testing')
