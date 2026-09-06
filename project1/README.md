@@ -17,4 +17,20 @@ A Django app for a basic supervised learning workflow:
   coloured by class for classification or by a continuous target with a colour bar for regression.
 - **Task 4**: Choose a model (linear/logistic regression, decision tree or random forest),
   split the data into train/validation/test sets, sweep across several hyper parameter values and see the best setting plus its score on a held out test set.
-- 
+
+## Tech stack
+Django, pandas, scikit-learn, matplotlib
+
+## Setup
+1) Create and activate a virtual environment:
+    ```bash
+   python -m venv venv
+   source venv/bin/activate
+
+2) Install dependencies:
+   pip install django pandas scimitar-learn matplotlib
+
+3) Run the server:
+   python manage.py runserver
+
+4) Open http://127.0.0.1:8000/home/ in your browser.
