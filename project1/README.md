@@ -10,7 +10,7 @@ A Django app for a basic supervised learning workflow:
 3) train a machine learning model on it
 
 ## Features
-- **Task 1 & 2**: Home page listing group into and a link into this app.
+- **Task 1 & 2**: Home page listing group info and a link into this app.
 - **Task 3**: Upload a CSV (first row = feature names, last column = target),
   preview the data (row/column counts, summary statistics),
   and visualise it as a scatter plot,
@@ -25,10 +25,10 @@ Django, pandas, scikit-learn, matplotlib
 1) Create and activate a virtual environment:
     ```bash
    python -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate```
 
 2) Install dependencies:
-   pip install django pandas scimitar-learn matplotlib
+   pip install django pandas scikit-learn matplotlib
 
 3) Run the server:
    python manage.py runserver
