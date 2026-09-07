@@ -1,0 +1,12 @@
+.box {
+    position: static;
+    width: 100%;
+    max-width: none;
+    left: auto;
+    top: auto;
+    transform: none;
+}
+.changed {
+    font-weight: bold;
+    background-color: #fff3b0;
+}

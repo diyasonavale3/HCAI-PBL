@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project2/style.css' %}">
+{% endblock %}
+{% block content %}
+<div class="box">
+    <div class="title-container"><div class="title">Model Explorer</div></div>
+    <div class="main-text">
+        <form method="get" id="controls">
+            <fieldset>
+                <legend>Model type</legend>
+                <label><input type="radio" name="model" value="tree"
+                       {% if model_type == 'tree' %}checked{% endif %}
+                       onchange="onModelChange(this)"> Decision Tree</label>
+                <label><input type="radio" name="model" value="logistic"
+                       {% if model_type == 'logistic' %}checked{% endif %}
+                       onchange="onModelChange(this)"> Logistic Regression</label>
+            </fieldset>
+
+            <label>Regularization strength (&lambda;): <output id="lam-value">{{ lam }}</output></label><br>
+            <input type="range" id="lam-slider" name="lam"
+                   min="{{ lam_min }}" max="{{ lam_max }}" step="{{ lam_step }}" value="{{ lam }}"
+                   oninput="document.getElementById('lam-value').textContent = this.value">
+
+            <fieldset>
+                <legend>Counterfactual</legend>
+                <label>Example:
+                    <select name="cf_index">
+                        {% for opt in test_options %}
+                            <option value="{{ opt.index }}" {% if opt.index == cf_index %}selected{% endif %}>{{ opt.label }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+                <label>Target species:
+                    <select name="cf_target">
+                        {% for s in species_options %}
+                            <option value="{{ s }}" {% if s == cf_target %}selected{% endif %}>{{ s }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Feature Effect Plots</legend>
+                <label>Feature:
+                    <select name="effect_feature">
+                        {% for f in continuous_features %}
+                            <option value="{{ f }}" {% if f == effect_feature %}selected{% endif %}>{{ f }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+            </fieldset>
+
+            <button type="submit">Update</button>
+        </form>
+
+        <p>Trained on {{ n_train }} penguins, tested on {{ n_test }}.</p>
+        <p>Test accuracy: <strong>{{ accuracy }}</strong></p>
+        <p>{{ omega_label }}: <strong>{{ omega }}</strong></p>
+        <img src="{{ image_url }}" alt="Model visualisation" style="max-width: 100%;">
+
+        <h3>Counterfactuals</h3>
+        {% if cf_found_count == 0 %}
+            <p>No counterfactuals found for target <strong>{{ cf_target }}</strong> after
+               {{ attempts_used }} escalating rounds of sampling. Try a different target
+               species or a different model/&lambda;.</p>
+        {% else %}
+            <p>Found {{ cf_found_count }} counterfactual(s) after {{ attempts_used }} round(s) of sampling.
+               Target species: <strong>{{ cf_target }}</strong>.</p>
+        {% endif %}
+        <table border="1" cellpadding="4">
+            <tr>
+                <th></th>
+                {% for f in feature_columns %}<th>{{ f }}</th>{% endfor %}
+                <th>distance</th>
+            </tr>
+            {% for row in table_rows %}
+                <tr>
+                    <td>{% if forloop.first %}x (original){% else %}counterfactual {{ forloop.counter0 }}{% endif %}</td>
+                    {% for cell in row.cells %}
+                        <td{% if cell.changed %} class="changed"{% endif %}>{{ cell.value }}</td>
+                    {% endfor %}
+                    <td>{{ row.distance|default:"—" }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+          <h3>Feature Effect Plots</h3>
+        <p>PDP and ALE for <strong>{{ effect_feature }}</strong>'s effect on predicted species probability.</p>
+        <img src="{{ effect_image_url }}" alt="PDP and ALE plots" style="max-width: 100%;">
+    </div>
+</div>
+
+<script>
+const LAMBDA_BOUNDS = {
+    tree: {min: 0, max: 0.2, step: 0.005},
+    logistic: {min: 0, max: 0.08, step: 0.002},
+};
+
+function onModelChange(radio) {
+    const bounds = LAMBDA_BOUNDS[radio.value];
+    const slider = document.getElementById('lam-slider');
+    slider.min = bounds.min;
+    slider.max = bounds.max;
+    slider.step = bounds.step;
+    slider.value = bounds.min;
+    document.getElementById('lam-value').textContent = bounds.min;
+}
+</script>
+{% endblock %}
