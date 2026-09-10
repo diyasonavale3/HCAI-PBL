@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project4/style.css' %}">
+{% endblock %}
+{% block content %}
+<div class="box">
+    <div class="title-container"><div class="title">Which would you rather watch?</div></div>
+    <div class="main-text">
+        <p>Comparison {{ trial_number }} of {{ total_trials }}</p>
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="trial_number" value="{{ trial_number }}">
+            <input type="hidden" name="movie_a_id" value="{{ movie_a.id }}">
+            <input type="hidden" name="movie_b_id" value="{{ movie_b.id }}">
+            <div class="movie-pair">
+                <button type="submit" name="chosen" value="{{ movie_a.id }}" class="movie-card-btn">
+                    <strong>{{ movie_a.title }}</strong> ({{ movie_a.year }})<br>
+                    {{ movie_a.genres|join:", " }}<br>
+                    {{ movie_a.content_rating }} &middot; {{ movie_a.duration }} min
+                </button>
+                <button type="submit" name="chosen" value="{{ movie_b.id }}" class="movie-card-btn">
+                    <strong>{{ movie_b.title }}</strong> ({{ movie_b.year }})<br>
+                    {{ movie_b.genres|join:", " }}<br>
+                    {{ movie_b.content_rating }} &middot; {{ movie_b.duration }} min
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

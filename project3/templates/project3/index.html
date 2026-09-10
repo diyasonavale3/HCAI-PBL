@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="box">
+    <div class="title-container"><div class="title">Project 3: Active Learning for Learning-to-Defer</div></div>
+    <div class="main-text">
+        <p>This project explores human-AI collaboration on AG News topic
+           classification, through learning-to-defer and active learning.
+           Tasks 1-4 were run as offline experiments (see the project
+           report); Task 5 below is a live, interactive demo where you
+           play the role of the expert.</p>
+        <p><a href="{% static 'project3/report.pdf' %}">Download the project report (PDF)</a></p>
+        <p><a href="{% url 'project3:task5' %}">Try Task 5: Be the Expert</a></p>
+    </div>
+</div>
+{% endblock %}

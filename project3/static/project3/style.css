@@ -1,0 +1,14 @@
+.box {
+    position: static;
+    width: 100%;
+    max-width: none;
+    left: auto;
+    top: auto;
+    transform: none;
+}
+.feedback-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}

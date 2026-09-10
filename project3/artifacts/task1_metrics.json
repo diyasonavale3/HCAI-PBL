@@ -1,0 +1,84 @@
+{
+  "accuracy": 0.9244736842105263,
+  "classification_report": {
+    "World": {
+      "precision": 0.9339419978517723,
+      "recall": 0.9152631578947369,
+      "f1-score": 0.924508240297714,
+      "support": 1900.0
+    },
+    "Sports": {
+      "precision": 0.9614197530864198,
+      "recall": 0.9836842105263158,
+      "f1-score": 0.9724245577523413,
+      "support": 1900.0
+    },
+    "Business": {
+      "precision": 0.9013859275053305,
+      "recall": 0.89,
+      "f1-score": 0.895656779661017,
+      "support": 1900.0
+    },
+    "Sci/Tech": {
+      "precision": 0.9004171011470281,
+      "recall": 0.9089473684210526,
+      "f1-score": 0.9046621267679413,
+      "support": 1900.0
+    },
+    "accuracy": 0.9244736842105263,
+    "macro avg": {
+      "precision": 0.9242911948976377,
+      "recall": 0.9244736842105263,
+      "f1-score": 0.9243129261197534,
+      "support": 7600.0
+    },
+    "weighted avg": {
+      "precision": 0.9242911948976376,
+      "recall": 0.9244736842105263,
+      "f1-score": 0.9243129261197535,
+      "support": 7600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1739,
+      48,
+      65,
+      48
+    ],
+    [
+      15,
+      1869,
+      11,
+      5
+    ],
+    [
+      59,
+      12,
+      1691,
+      138
+    ],
+    [
+      49,
+      15,
+      109,
+      1727
+    ]
+  ],
+  "class_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "n_train": 120000,
+  "n_test": 7600,
+  "hyperparameters": {
+    "C": 3,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 50000
+  }
+}

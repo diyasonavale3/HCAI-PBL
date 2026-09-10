@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="box">
+    <div class="title-container"><div class="title">Project 4: Preference Elicitation</div></div>
+    <div class="main-text">
+        <p>This study compares two ways of learning your movie preferences:
+           comparing pairs of movies and ranking sets of ten movies.</p>
+        <p><a href="{% static 'project4/report.pdf' %}">Download the project report (PDF)</a></p>
+        <p><a href="{% url 'project4:start_study' %}">Start the study</a></p>
+    </div>
+</div>
+{% endblock %}

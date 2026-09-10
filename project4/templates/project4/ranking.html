@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'project4/style.css' %}">
+{% endblock %}
+{% block content %}
+<div class="box">
+    <div class="title-container"><div class="title">Rank these movies</div></div>
+    <div class="main-text">
+        <p>Round {{ round_number }} of {{ total_rounds }}. Click the movies in order,
+           from the one you'd most want to watch to the one you'd least want to watch.</p>
+        <div class="movie-grid" id="movie-grid">
+            {% for m in movies %}
+                <div class="movie-card" data-movie-id="{{ m.id }}" onclick="selectMovie(this)">
+                    <span class="rank-badge"></span>
+                    <strong>{{ m.title }}</strong> ({{ m.year }})<br>
+                    {{ m.genres|join:", " }}<br>
+                    {{ m.content_rating }} &middot; {{ m.duration }} min
+                </div>
+            {% endfor %}
+        </div>
+        <form method="post" id="ranking-form">
+            {% csrf_token %}
+            <input type="hidden" name="round_number" value="{{ round_number }}">
+            <input type="hidden" name="movie_ids" value="{{ movie_ids_csv }}">
+            <input type="hidden" name="ranking" id="ranking-input">
+            <button type="submit" id="submit-btn" disabled>Submit ranking</button>
+            <button type="button" onclick="location.reload()">Clear</button>
+        </form>
+    </div>
+</div>
+
+<script>
+let order = [];
+function selectMovie(el) {
+    if (el.classList.contains('selected')) return;
+    order.push(el.dataset.movieId);
+    el.querySelector('.rank-badge').textContent = order.length;
+    el.classList.add('selected');
+    if (order.length === {{ movies|length }}) {
+        document.getElementById('ranking-input').value = order.join(',');
+        document.getElementById('submit-btn').disabled = false;
+    }
+}
+</script>
+{% endblock %}

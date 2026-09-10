@@ -1,0 +1,2102 @@
+[
+  {
+    "id": 0,
+    "text": "Lucas to Receive AFI Lifetime Award LOS ANGELES - After creating \"Star Wars,\"\"Raiders of the Lost Ark\" and \"American Graffiti,\" Darth Vader might insist it was George Lucas' DESTINY to get the American Film Institute's lifetime achievement award.    Lucas, 60, was picked on Friday to be the recipient of the organization's 33rd annual prize, following such recent recipients as Meryl Streep, Robert De Niro and Tom Hanks...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.3678
+  },
+  {
+    "id": 1,
+    "text": "China Bans Nike Ad Chinese authorities have banned a Nike television commercial that features LeBron James battling cartoon martial arts masters.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5044
+  },
+  {
+    "id": 2,
+    "text": "Finucane Killer Could Be Free in Eight Months Pat Finucanes killer expects to be a free man by next May despite a judge jailing him today for a minimum of 22 years. Loyalist assassin Ken Barrett, 41, is expected ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5956
+  },
+  {
+    "id": 3,
+    "text": "TV in Hindi via the red button A BBC One documentary will be broadcast in both English and Hindi for the first time.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5923
+  },
+  {
+    "id": 4,
+    "text": "Flick exhibit stuns and irritates Just two days after New York #39;s Museum of Modern Art closed its spectacularly successful temporary exhibit in Berlin, the spotlight turned to another attention-grabbing art display in the German ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.53
+  },
+  {
+    "id": 5,
+    "text": "Decision due on 500,000 new homes A decision is due to be taken on whether 500,000 new home should be built in eastern England.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5411
+  },
+  {
+    "id": 6,
+    "text": "Itsa miracle one would part with a talisman One of the first things we did after moving into our old house was to rip out the ancient radiators and put in a modern heating system.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5462
+  },
+  {
+    "id": 7,
+    "text": "I Want My Moscow TV A lone inventor with a colorful past has come up with a way to let you tap into your home TV reception anywhere in the world.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4397
+  },
+  {
+    "id": 8,
+    "text": "England fall short at IRB awards Less than a year after walking away with the three top prizes, England have failed to receive a single nomination in any of the major categories for the annual International Rugby Board awards.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5392
+  },
+  {
+    "id": 9,
+    "text": "Beauty spot given a green boost  A turf roof and solar slates are just two of the green innovations used to revamp buildings at one of Cornwall's most spectacular locations.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6623
+  },
+  {
+    "id": 10,
+    "text": "Election Overseers Want Big Win Administrators are hoping that the victor in this year's presidential election will win by a wide margin. A close race, they fear, will result in more charges of voter fraud and demands for recounts. Kim Zetter reports from Washington.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4967
+  },
+  {
+    "id": 11,
+    "text": "But Sweetie, You Love Lima Beans Psychologists were studying false memories when they stumbled on a surprisingly easy target for manipulation: foods.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5317
+  },
+  {
+    "id": 12,
+    "text": "Ray Brent Marsh Plea Agreement Ray Brent Marsh did officially plead guilty in court.. But the judge could still reject the plea bargain. 31-year old Ray Brent Marsh was surrounded by and army of Walker County deputies as he entered the courtroom.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5909
+  },
+  {
+    "id": 13,
+    "text": "Man Pleads Guilty in Passport Case   Soliman S. Biheiri, the only person convicted in a broad probe into whether Islamic charities in Northern Virginia were financing terrorist organizations, pleaded guilty yesterday to illegally possessing and using a U.S. passport to enter the United States last year.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5007
+  },
+  {
+    "id": 14,
+    "text": "When prices, pay don't add up DEDHAM -- After more than 25 years of sitting in the same rickety chairs and eating at the same worn table, Peter and Joan Stefans were more than ready to replace the decades-old dining set handed down from Joan Stefans's parents. But almost as soon as they started looking, the bills landing in their mailbox persuaded them to stop.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5433
+  },
+  {
+    "id": 15,
+    "text": "Rain expected across much of nation Rain was expected to dampen much of the nation on Saturday, with snow falling in mountainous areas of the West. Widespread showers were forecast for the Ohio Valley, Great Lakes, Northeast, Mid-Atlantic and the central Tennessee Valley.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4234
+  },
+  {
+    "id": 16,
+    "text": "Making his Move Matt Kenseth was becoming irritated as he leaned against the inside wall of his hauler. Cant we talk about something else? he asked.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6131
+  },
+  {
+    "id": 17,
+    "text": "3 days to tell if quake predictor right The day of reckoning is coming. For someone. By Labor Day, either Southern California will have suffered a magnitude-6.4 earthquake or at least one UCLA geophysicist will be eating some serious crow.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5732
+  },
+  {
+    "id": 18,
+    "text": "Singer: Underachieving costs Bowa Expectations come with a noose. In a sport where the need to live one day at a time is always reinforced, not living up to long-range projections often tightens that noose.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5923
+  },
+  {
+    "id": 19,
+    "text": "Gators gag on Bulldog You could rattle off the statistics, one after another, as the growing list of baffling facts begins to define the repulsiveness of this defeat.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.606
+  },
+  {
+    "id": 20,
+    "text": "Hundreds Mourn Marine From Md.  Tracy Miller thinks about her son's touch and his voice, trying to grasp that she will never experience either again.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4752
+  },
+  {
+    "id": 21,
+    "text": "Divers find Blackbeard #39;s cannon BEAUFORT, NC -- Underwater archeologists have found another cannon from the wreckage of what they believe was the flagship of the notorious pirate Blackbeard.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6327
+  },
+  {
+    "id": 22,
+    "text": "Wall St.'s Nest Egg - the Housing Sector (Reuters) Reuters - If there were any doubts that we're still living in the era of the stay-at-home economy, the rows of empty seats at the Athens Olympics should help erase them.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.7149
+  },
+  {
+    "id": 23,
+    "text": "In Visits, Janey Charts Reforms More than two weeks remain before Clifford B. Janey takes over the District #39;s public schools, but there he was on a recent evening, sitting before a group of residents who were complaining about ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.484
+  },
+  {
+    "id": 24,
+    "text": "Preparing pooches for the work force Dogs must be between 14 and 30 months old and between 22 and 24 inches when measured from the top of the shoulder blade to the floor.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5713
+  },
+  {
+    "id": 25,
+    "text": "Motorcycles Hit Road As Gas Prices Soar LAKE GEORGE, N.Y. - Even though he's facing double hip replacement surgery, Bill Smith is more than happy to struggle out the door each morning, limp past his brand new P.T...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.3413
+  },
+  {
+    "id": 26,
+    "text": "Visiting Indian delegation gets earful Visiting Indian delegation gets earful from U.S. workers dislocated by outsourcing.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5837
+  },
+  {
+    "id": 27,
+    "text": "Hurricane losses may reach  $10bn Hurricane Frances could cause between  $2bn and  $10bn in insured losses in the US, experts predict as the storm pummels Florida.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6181
+  },
+  {
+    "id": 28,
+    "text": "Lawmaker Laments  #39;Arrival Of Jihad #39; In Netherlands THE HAGUE, Netherlands -- Dutch officials are promising tougher measures against Islamic radicals, as one lawmaker laments the arrival of  quot;jihad quot; in the Netherlands.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5197
+  },
+  {
+    "id": 29,
+    "text": "The 1994 NHL lockout provided no permanent solutions for major &lt;b&gt;...&lt;/b&gt; (CP) - The 103-day NHL labour disruption of 1994 flushed tens of millions of dollars down the toilet and resulted in no permanent solution.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5494
+  },
+  {
+    "id": 30,
+    "text": "Boston-area groups ready to offer relief The halls of Unity Sports and Cultural Club in Dorchester will fill with food, water, and tents this week, as the Caribbean club becomes a collection site for supplies headed for hurricane-devastated Grenada.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5308
+  },
+  {
+    "id": 31,
+    "text": "Behind Enemy Lines: Advice From a Partisan A Republican on how to survive in a Democratic town: This really is the greatest city in the world, but you are now behind enemy lines.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5666
+  },
+  {
+    "id": 32,
+    "text": "Will It Be Trash or Tribute? Bottle Stands on the Edge Tillie, the clown face that graced the front of Palace Amusements in Asbury Park for nearly 50 years, was preserved in June before the rest of the building was torn down.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4881
+  },
+  {
+    "id": 33,
+    "text": "Frances Expected to Cost Insurers  #36;2B- #36;5B (AP) AP - Hurricanes Charley and Frances dealt Florida a one-two punch that ravaged citrus groves and ground the state's most important industry to a halt by keeping tourists away from its sandy beaches and fantasy-filled theme parks.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5881
+  },
+  {
+    "id": 34,
+    "text": "Golden Globes names announced Jamie Foxx has three Golden Globe nominations, with Nicole Kidman and Johnny Depp also up for prizes.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4878
+  },
+  {
+    "id": 35,
+    "text": "I Steal Your Heritage Paperwork bores me. Usually I don't fill it out. But in jail, you don't have a choice. ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6419
+  },
+  {
+    "id": 36,
+    "text": "Hopes thin for future of Astra #39;s blood drug THE future of AstraZenecas blood-thinning medicine, Exanta, was thrown into fresh doubt last night after Frances leading drugs regulator confirmed that it was reviewing the medicines approval status.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5981
+  },
+  {
+    "id": 37,
+    "text": "Stop croc water swimming: coroner THE public still did not appreciate how frighteningly dangerous crocodiles were, even after the fatal mauling of a German tourist two years ago, a coroner said today.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.647
+  },
+  {
+    "id": 38,
+    "text": "Sopranos tipped for Emmys Mobster drama The Sopranos is favourite to take home the most trophies ahead of the Emmy awards.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.7011
+  },
+  {
+    "id": 39,
+    "text": "Once Red, 'Mr. Green' Is a Hero Anywhere but at Home Mikhail S. Gorbachev has decided to devote his post-presidential years to campaigning for the protection of the environment.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4788
+  },
+  {
+    "id": 40,
+    "text": "Man breaks biscuit-eating record A SINGAPOREAN man broke the world record for eating three cream crackers in the fastest time as part of a wacky competition involving attempts at breaking 10 Guinness World Records.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5808
+  },
+  {
+    "id": 41,
+    "text": "Kennedy Cousin Fighting Assault Accusation CHICAGO - William Kennedy Smith said Monday he has resigned from the humanitarian group he founded while he fights sexual assault allegations leveled by a former employee.   \"I am simply doing everything I can to protect the organization I love,\" Smith said in his first public appearance since Audra Soulias filed a lawsuit last week alleging he sexually assaulted her five years ago...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6839
+  },
+  {
+    "id": 42,
+    "text": "Ford Brings Back Steve McQueen DETROIT is exhuming another face from the past to pitch its cars to a new generation. A digitally revived Steve McQueen, who died in 1980, will be reprising the character of Lt.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4616
+  },
+  {
+    "id": 43,
+    "text": "They Are Sleuths Who Weigh Prose Trying to authenticate documents or uncover forgeries is an increasingly technical pursuit.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5239
+  },
+  {
+    "id": 44,
+    "text": "Car Talk: Fire hazard on Honda CR-V is real Dear Tom and Ray: I was pretty freaked out recently to learn that more than 20 2003-04 Honda CR-Vs had caught fire after their first oil change.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6131
+  },
+  {
+    "id": 45,
+    "text": "PeopleSoft Raises Estimates for Quarter (AP) AP - PeopleSoft Inc. Monday raised its forecast for the just-ended quarter, helped by an increased average selling price and strong performances in North America and Europe.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.3979
+  },
+  {
+    "id": 46,
+    "text": "Actress Close 'joins TV cop show' Fatal Attraction star Glenn Close is to join US police drama The Shield, according to reports in Hollywood.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.7496
+  },
+  {
+    "id": 47,
+    "text": "Letters Placement of photo, headline confusing When I opened a recent business section, what I beheld above the fold was a picture of Lance Armstrong under a headline ''It is better to give when not being deceived quot; ( Nov. 21). My immediate reaction was that the Lance Armstrong Foundation was deceptive in its practices. It took a reading of your article ...",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6087
+  },
+  {
+    "id": 48,
+    "text": "Calif. Academy of Sciences Holds Tag Sale (AP) AP - The California Academy of Sciences in Golden Gate Park held a one-of-a-kind yard sale Sunday, offering rock-bottom prices on everything from antique wooden incubators to six-foot-tall prehistoric bird replicas.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6409
+  },
+  {
+    "id": 49,
+    "text": "The Talk Shows  &lt;em&gt;  Guests to be interviewed today on major television talk shows:&lt;/em&gt;",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4628
+  },
+  {
+    "id": 50,
+    "text": "For Long Beach Locals, the Season to Reclaim the Sand Local residents of Long Beach, N.Y., are reclaiming their chip of paradise after being thwarted all summer by the crowds.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6154
+  },
+  {
+    "id": 51,
+    "text": "Russians hunt down potential  #39;black widows #39; AFTER surviving nearly a decade of savage, seemingly interminable warfare in Chechnya without seeing any of her four children come to harm, Khalimat Saidullayeva thought the worst was over.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.578
+  },
+  {
+    "id": 52,
+    "text": "Elliott Smith CD Released Year After Death PORTLAND, Ore. - It's been almost a year since singer-songwriter Elliott Smith committed suicide, and fans and friends will be looking for answers as the posthumous \"From a Basement on the Hill\" is released...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.587
+  },
+  {
+    "id": 53,
+    "text": "Antidepressants and Suicidal Kids Because some antidepressant drugs have been shown to lead to suicidal thoughts among children and teens, the FDA decrees that all manufacturers must carry a warning on their labels.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4852
+  },
+  {
+    "id": 54,
+    "text": "The dangers of playing hardball The month of November in a US presidential-election year is not supposed to be particularly eventful, but this year may be an exception, in the light of the gathering storm over ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5921
+  },
+  {
+    "id": 55,
+    "text": "Prime time, slime time I know you don #39;t care about people like me. Actually, you and the rest of the entertainment history don #39;t care about people, period.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5511
+  },
+  {
+    "id": 56,
+    "text": "Germany #39;s most beautiful words Habseligkeiten - which means  #39;property #39; - has been voted the most beautiful word in the German language. And rhabarbermarmelade -  #39;rhubarb jam #39; - has been singled out as Germany #39;s coolest word.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.517
+  },
+  {
+    "id": 57,
+    "text": " #39;Black Tuesday #39; leaves Windows admins blue Forget the Monday morning blues. For Windows administrators, the second Tuesday of the month has become the day to dread. That #39;s the day when Microsoft releases its monthly package of patches.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4592
+  },
+  {
+    "id": 58,
+    "text": "Two Friends of Ponson Detained Two friends of detained Orioles pitcher Sidney Ponson who escaped jail last week have been recaptured, and police are continuing an investigation into allegations that Ponson punched a judge on Christmas Day at an Aruba beach.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6141
+  },
+  {
+    "id": 59,
+    "text": "The confidence factor, from one with plenty of it At the head of the class, Rosabeth Moss Kanter is an intellectual whirlwind: loud, expansive, in constant motion.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4426
+  },
+  {
+    "id": 60,
+    "text": "Wolfpack fails to catch up to speedy Canes It was a wild ride and NC State held on for as long as it could, but eventually it reached speeds too high for the Wolfpack, as No.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.652
+  },
+  {
+    "id": 61,
+    "text": "Fall guy NEW YORK -- How ugly was it? Ask one of the closest eyewitnesses to measure it on a scale of 1 to 10.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.577
+  },
+  {
+    "id": 62,
+    "text": "Outcasts of Greece and the Games The rubble is everywhere: rusted car parts, a rickety baby carriage, a broken TV and all manner of trash. The ground is unpaved and strewn with rocks.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5143
+  },
+  {
+    "id": 63,
+    "text": "At churches, an 8th sit-in begins amid hope, closing Anger, hope, and sadness pervaded at Boston-area Catholic churches yesterday, where parishioners staged more sit-ins at closing churches, prayed to ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6282
+  },
+  {
+    "id": 64,
+    "text": "For local businesses, not much of a boost NEW YORK -- Two blocks south of Madison Square Garden, in a microcosm of what New Yorkers have been experiencing all week in this busy midtown neighborhood, a few feet of pavement told a tale of two cities.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5571
+  },
+  {
+    "id": 65,
+    "text": "GTECH Thrives, but With a Wild Card The company's Q2 earnings beat estimates, but Brazilian legal problems continue.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5607
+  },
+  {
+    "id": 66,
+    "text": "New York man wins  $149M lottery Like most parking lot attendants, Juan Rodriguez knows how tantalizing and frustrating it can be to drive a luxury car, only to have to surrender it all too quickly for a pair of crumpled dollars.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.591
+  },
+  {
+    "id": 67,
+    "text": "Infocus: SSH Host Key Protection This is the first in a series of articles on SSH in-depth. We start with looking at standard SSH host keys by examining the verification process to ensure you have not been the victim of an attack.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6235
+  },
+  {
+    "id": 68,
+    "text": "Voters approve tax increases to pay for stadium ARLINGTON, Texas -- The Dallas Cowboys scored a victory at the polls Tuesday in Arlington -- to the tune of  $325 million. Arlington voters approved tax increases to help pay for about half of a proposed  $650 ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.4939
+  },
+  {
+    "id": 69,
+    "text": "After Being Bounced Around Florida Is Bouncing Back Bob Ellis was picking up plywood and two-by-fours on his second trip of the day for supplies to deal with the wreckage from Hurricane Frances, the second of three ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5152
+  },
+  {
+    "id": 70,
+    "text": "Tour(ism) de force Bee Capitol Bureau. TOKYO - In the middle of Roppongi Hills, next door to the Hollywood Beauty Plaza and the cozy Tofu Caf restaurant, a three-story billboard of Arnold Schwarzenegger beams ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.63
+  },
+  {
+    "id": 71,
+    "text": "O.D.B., Controversial Rap Artist, Dies at 35 Russell T. Jones, the rap artist known as O.D.B., was a founding member of the Wu-Tang Clan and made a large imprint on rap music in the 1990's.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6752
+  },
+  {
+    "id": 72,
+    "text": "Reeve Was a Super Activist Christopher Reeve's death Sunday deprives stem-cell research advocates of one of their most effective champions. But the wheels he help put in motion will continue turning, they promise.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5919
+  },
+  {
+    "id": 73,
+    "text": "American giant: Schlopy snares sixth BEAVER CREEK - Ski racing requires a rare blend of fearlessness, stellar reactions and bionic will - the latter being vital to longevity.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6058
+  },
+  {
+    "id": 74,
+    "text": "A Rousing Comeback For Home of the Beatles Two decades ago, when this seaport city was mired in a deep and seemingly endless recession, Mike Byrne, a local musician and businessman, sought public funds to help build an exhibition dedicated to Liverpool's most famous native sons, the Beatles.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5049
+  },
+  {
+    "id": 75,
+    "text": "Why You Hate, and Like, Social Security Is Social Security an important part of civilized society, or just another form of welfare?",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.442
+  },
+  {
+    "id": 76,
+    "text": "Audit Finds Large FBI Translation Backlog WASHINGTON - The FBI has a backlog of hundreds of thousands of hours of untranslated audio recordings from terror and espionage investigations, despite large increases in money and personnel for translations since the 2001 terror attacks, a Justice Department audit released Monday said.    In addition, the audit by Glenn A...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5037
+  },
+  {
+    "id": 77,
+    "text": "Venezuela Official: Economy to Rise in '04 (AP) AP - Venezuela's economy should grow by 12 percent in 2004 compared to a 9.2 percent decline last year, a central bank director said Saturday.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.552
+  },
+  {
+    "id": 78,
+    "text": "Florida Top Court Focuses on Tobacco Class Action Florida Supreme Court judges on Wednesday questioned attorneys for smokers and cigarette companies on whether a case involving thousands of smokers can properly be tried as a class action.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5776
+  },
+  {
+    "id": 79,
+    "text": "Industrial Park Hostage to U.S.-N.Korea Ties (Reuters) Reuters - An industrial park offering cheap labor, handy transport links and next door to major Asian markets should be a powerful lure for manufacturers looking for a competitive edge.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.468
+  },
+  {
+    "id": 80,
+    "text": "MILAN, Italy--(BUSINESS WIRE)--Dec. 1, 2004-- Les socits vont concentrer leurs efforts communs en matire de dveloppement, de commercialisation et de marketing en vue de saisir des opportunits d #39;affaires sur les marchs des rseaux de nouvelle gnration et des services de voix aux ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5629
+  },
+  {
+    "id": 81,
+    "text": "Is Netflix Doomed? A Netflix mailer may be black and white and red all over, but that's not the only punch line.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6588
+  },
+  {
+    "id": 82,
+    "text": "Sex toy creates Oz airport pandemonium A discarded vibrator at Queensland #39;s Mackay airport caused pandemonium after cleaners noticed a rubbish bin humming in a suspicious manner, the Herald Sun reports.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.7643
+  },
+  {
+    "id": 83,
+    "text": "A new leaf for Chris Mihm is no Shaquille ONeal. That is to say, he doesnt refer to himself as The Big Journeyman, he doesnt duck-walk triumphantly after a routine dunk, he doesnt demand a contract ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6723
+  },
+  {
+    "id": 84,
+    "text": "EU Wants to Cut Greenhouse Gases in Cars, Shoes (Reuters) Reuters - The European Union's battle against global warming will force companies to change automobile air conditioning systems and restrict the sale of air-cushioned sports shoes, European Union ministers said on Thursday.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5649
+  },
+  {
+    "id": 85,
+    "text": "FDA Warns of Terrorist Prescription Drug Tampering By DIEDTRA HENDERSON     WASHINGTON (AP) -- \"Cues from chatter\" gathered around the world are raising concerns that terrorists might try to attack the domestic food and drug supply, particularly illegally imported prescription drugs, acting Food and Drug Administration Commissioner Lester M. Crawford says...",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4928
+  },
+  {
+    "id": 86,
+    "text": "Fierce T. rex #39;s  #39;fluffy #39; history What is more, the creature, which lived 60 to 70 million years before T. rex, had fluffy feathers covering its body. Xing Xu and colleagues from the Chinese Academy of Sciences in Beijing found their tyrannosauroid ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6572
+  },
+  {
+    "id": 87,
+    "text": " #39;She won #39;t give up on him as long as she draws breath #39; It was a  quot;distressed quot; Baroness Thatcher who spoke to her troubled son on Friday. Anticipating the media scrum outside her Belgravia home, the former prime minister was surrounded by no fewer ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5984
+  },
+  {
+    "id": 88,
+    "text": "A Brutal Sexual Assault Galvanizes Swazi Women  MANZINI, Swaziland -- Gugu Pungwayo couldn't bear to read the newspaper article. She recalled that she glanced at the headline, then put the paper down. Picked it up again. Put it down. Again. And again.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5333
+  },
+  {
+    "id": 89,
+    "text": "Mortal Kombat: Deception; Silent Hill 4: The Room; Spinrite 6.0 The sixth title in the seemingly endless Mortal Kombat franchise -- 12 years and counting -- is about much more than blood-soaked, hand-to-hand fighting.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6465
+  },
+  {
+    "id": 90,
+    "text": "Stronach mum on Tobin Auto parts magnate Frank Stronach offered few details Monday on the circumstances leading up to Brian Tobin #39;s sudden departure from two of his companies, refusing to comment on reports of friction between the two .",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5705
+  },
+  {
+    "id": 91,
+    "text": "UNconscionable (Investor's Business Daily) Investor's Business Daily - Oil For Food: It's one of the great scandals of our time, no less so because the big media have mostly ignored it. Now comes a report hinting why some key former allies opposed the U.S.-led war in Iraq: They were bribed.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5205
+  },
+  {
+    "id": 92,
+    "text": "From Zero to Hero Disney has a Hero on its hands, but it may have showed up too late to save the day.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.55
+  },
+  {
+    "id": 93,
+    "text": "Divorcee Gets Lesson in Finance (AP) AP - At first, Kristin Briggs felt mistrust. Not toward her husband, who wanted a divorce, but toward her new financial planner.",
+    "true_label": "Business",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.3262
+  },
+  {
+    "id": 94,
+    "text": "Please hand the opposition the silver bullet ... so it may finally &lt;b&gt;...&lt;/b&gt; University de Los Andes (ULA) lecturer Jutta Schmitt writes: In the wake of the Presidential recall referendum and as soon as the preliminary results had been announced by the National Elections Council (CNE) in the early morning hours of Monday, August 16 ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.3798
+  },
+  {
+    "id": 95,
+    "text": "Sun-Times, Union Reach Tentative Deal (AP) AP - The Chicago Sun-Times averted a strike Wednesday with a last-minute contract deal that was reached as union reporters, copy editors and other news staff were prepared to walk out.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.591
+  },
+  {
+    "id": 96,
+    "text": "Ancel Keys, Who Found Source of Heart Disease, Dies (Reuters) Reuters - Ancel Keys, a pioneer in public health best known for identifying the connection between a cholesterol-rich diet and heart disease, has died.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4947
+  },
+  {
+    "id": 97,
+    "text": "It #146;s so not hip to be Union Square  Its oval promotional stickers, colorless and lowercase, are still everywhere, on parking meters, street signs, and lampposts.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5999
+  },
+  {
+    "id": 98,
+    "text": "The Gas Misers Richard Pearce has turned out his old love, a 1989 Dodge pickup truck. In 2002 the 50-year-old retired soldier and his wife decided to bring a Toyota Prius hybrid back to their Virginia home.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.674
+  },
+  {
+    "id": 99,
+    "text": "Burger king is hard act to swallow A TEENAGER has set a wacky new world record ... by stuffing more than three McDonald #39;s burgers into his mouth without swallowing.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.7771
+  },
+  {
+    "id": 100,
+    "text": "Women in China finally making a great leap forward Mao said 'women hold up half the sky.' But only today are urban women making big gains.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5486
+  },
+  {
+    "id": 101,
+    "text": "Mayoral Race Write-In Effort Worries Utah (AP) AP - Election officials are worried that a massive write-in campaign mounted by Republicans in the scandal-ridden Salt Lake County mayoral race could hold up final results in other races around the state.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5598
+  },
+  {
+    "id": 102,
+    "text": "Painkiller risk to gut revealed The risk of intestinal damage from common painkillers may be higher than thought, research suggests.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5112
+  },
+  {
+    "id": 103,
+    "text": "Olsen Twin Can't Avoid Media Spotlight NEW YORK - After spending time at a treatment center for an eating disorder, Mary-Kate Olsen is under heavy scrutiny during her freshman year at New York University.    Her publicist, Michael Pagnotta, denied Tuesday a report on NBC's \"Today\" show that the 18-year-old actress had suffered a setback and returned to Los Angeles...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.611
+  },
+  {
+    "id": 104,
+    "text": "Jobless Claims at Highest Level Since Sept. (AP) AP - New claims for jobless benefits moved higher last week, a possible sign that employers haven't completely let go of their caution and are looking to cut costs.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5004
+  },
+  {
+    "id": 105,
+    "text": "First deadline passes for Supreme Court Grokster case First round of comments from friends of the court",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.411
+  },
+  {
+    "id": 106,
+    "text": "Fewer people reported investment income to taxman in 2003, says &lt;b&gt;...&lt;/b&gt; It was the third straight year that the numbers have fallen, although not nearly as much as in the previous two years.  quot;Nearly 7.4 million people reported just over  $30.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5463
+  },
+  {
+    "id": 107,
+    "text": "Gillette hopes to create a buzz with vibrating women's razor Gillette Co. yesterday unveiled its newest razor -- one that promises to make a buzz in women's shaving.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4494
+  },
+  {
+    "id": 108,
+    "text": "Voracious growth puts China in a power crunch It #39;s not even 5 pm on a workday and the corridor outside Li Chengwen #39;s office is dark. The air is moist and warm. By Eugene Hoshiko, AP.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6124
+  },
+  {
+    "id": 109,
+    "text": "Pedestrian Ban Reversed A Prince George's County appeals board has voted to overturn a ban on pedestrians on the streets and sidewalks around FedEx Field.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.4831
+  },
+  {
+    "id": 110,
+    "text": "Missile defence shield test fails A test of the planned US anti-missile defence shield fails in the first mission in almost two years.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4426
+  },
+  {
+    "id": 111,
+    "text": "Spotted in England: men reading ... and talking about it In this year's national reading group competition, the Racketeers stood alone as the only all-male outfit.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6437
+  },
+  {
+    "id": 112,
+    "text": "Soccer Prodigy Adu Wins Cybersquatter Case &lt;p&gt; &lt;/p&gt;&lt;p&gt; GENEVA (Reuters) - U.S. soccer's most expensive player, teenage prodigy Freddy Adu, has won his cybersquatting case against a man who claimed to be preparing a fan-based Web Site, an international arbitrator ruled on Thursday.&lt;/p&gt;",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6011
+  },
+  {
+    "id": 113,
+    "text": "Martin: Partnership  #39;even more important #39; Canadian Prime Minister Paul Martin recounted Wednesday the hospitality Canadians displayed to stranded travelers after US airspace closed in the wake of the 2001 terror attacks.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5721
+  },
+  {
+    "id": 114,
+    "text": "PM to attend crucial EU summit this week Lawrence Gonzi will at the end of this week lead a Maltese team at a crucial EU summit marking the end of the six month Dutch presidency.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6701
+  },
+  {
+    "id": 115,
+    "text": "Day at-a-glance The hot event, who's ahead, pictures and quotes: what you need to know about the US election today.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4671
+  },
+  {
+    "id": 116,
+    "text": "Wounded servicemen describe Fallujah fight LANDSTUHL, Germany - Getting the Purple Heart Medal for his war wounds doesnt mean Spc. Kris Clinkscales is a hero. Getting the Purple Heart just means the rocket found me, quipped the 22-year-old ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6312
+  },
+  {
+    "id": 117,
+    "text": "Letters Target the abusers of legal weapons We can all share the outrage, expressed by columnist Steve Bailey (''Summer Sizzler, quot; Aug. 11), at the killings in the city's poor neighborhoods. But there's no need to share his ignorance. He argues for renewal of the so-called assault weapon ban, claiming that otherwise, ''UZIs and AK-47s could again be flooding the streets. quot; His ...",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5722
+  },
+  {
+    "id": 118,
+    "text": "Japanese carrier KDDI to tie up with BT on data communications (AFP) AFP - Japan's number two telecoms operator KDDI said it had agreed with major British carrier BT to join hands on international data communications services for corporate clients.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6022
+  },
+  {
+    "id": 119,
+    "text": "Radio Outage Grounds West Coast Flights Airport operations were back to normal early Wednesday following a radio failure at a Federal Aviation Administration control facility that tied up travelers for hours.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6046
+  },
+  {
+    "id": 120,
+    "text": "Once Elusive, Orchids Flourish on Taiwanese Production Line Taiwan is seeking to dominate the world's orchid industry, and its government plans to bring heavy public spending into the effort.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6604
+  },
+  {
+    "id": 121,
+    "text": "Lanka claims  $5m for  #39;cable damages #39; COLOMBO: Sri Lankan authorities tried to seize an Indian ship yesterday and sought  $5 million in damages, accusing it of breaking the undersea fibre optic cable that connects the tropical island #39;s main Internet links to the rest of the world.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.7284
+  },
+  {
+    "id": 122,
+    "text": "Aluminium Ship Builder Austal Teams with Raytheon for Amphibious &lt;b&gt;...&lt;/b&gt; Austal Limited today announced that it had teamed with Raytheon Australia to bid for the upcoming Australian Government tender to build two amphibious ships, which is due to be issued in early 2005.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5058
+  },
+  {
+    "id": 123,
+    "text": "Investors Hope for Strong Retail Reports (AP) AP - Will Wall Street wrap up another year-end rally in time for the holidays? A key job creation report and the strength of the weekend's shopping kickoff will determine the rally's fate in the week ahead.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5862
+  },
+  {
+    "id": 124,
+    "text": "Michelin Unveils Airless Tire for 10 Years On  PARIS (Reuters) - Europe's biggest tire maker Michelin  unveiled an airless tire on Tuesday designed to weather tough  road conditions in fast-growing countries like China and India.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4169
+  },
+  {
+    "id": 125,
+    "text": "U.S. to Import 4 Million Flu Shot Doses  WASHINGTON (Reuters) - U.S. health officials, taking  another step to ease the season's flu shot shortage, approved  the importation of up to 4 million flu shot doses from Europe  on Tuesday for patients willing to sign a consent form.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.557
+  },
+  {
+    "id": 126,
+    "text": "H-1B visa cap for FY '05 already reached The cap on H-1B visas granted to foreign workers, set at 65,000 for the fiscal year that began Friday, has already been reached, according to U.S. Citizenship and Immigration Services.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4896
+  },
+  {
+    "id": 127,
+    "text": "Russia woos Indian IT firms, call to jointly tap global markets (AFP) AFP - Russia said it wants to emulate India's success in information technology as it wooed Indian firms for joint projects and called on both nations to team up to tap global markets.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6225
+  },
+  {
+    "id": 128,
+    "text": "Sharing wealth was golden idea Kindergarten must have been good to LeBron James. With sharing at the top of that year's lesson plan, James might have collected a lot of gold stars for his behavior.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6225
+  },
+  {
+    "id": 129,
+    "text": "Businesses Plan Attack on Edwards The United States Chamber of Commerce plans to spend roughly  $10 million attacking trial lawyers, including Senator John Edwards, with television and mail advertisements.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5302
+  },
+  {
+    "id": 130,
+    "text": "Feds search for 127 firearms missing from Millbrae locker MILLBRAE, Calif. Federal authorities are investigating one of the region #39;s largest gun heists in years after a gun dealer reported dozens of firearms missing from a Millbrae storage locker.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4793
+  },
+  {
+    "id": 131,
+    "text": "Chico's The Man The leading specialty women's clothier trounces expectations and sees more opportunity in the future.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4579
+  },
+  {
+    "id": 132,
+    "text": "Manufacturing Activity Expands in December (AP) AP - Manufacturing activity expanded for the 19th consecutive month in December, a research group reported Monday, suggesting that the industrial sector entered the new year with solid strength behind it.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.7187
+  },
+  {
+    "id": 133,
+    "text": "Detective Caught in Internet Sting Over Child Sex HITE PLAINS, Aug. 16 - A 16-year veteran of the New York Police Department, who supposedly called himself a  quot;boy hunter #39; #39; in an online profile, was arrested on Monday after the Westchester district attorney, Jeanine Pirro, said he tried to ...",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6697
+  },
+  {
+    "id": 134,
+    "text": "A primer on office politics, good and bad One doesn't have to get past the first page of this book before corporate consultants and coaches Rick Brandon and Marty Seldman spell out one of the major problems many corporations face today: ''For most people, the words integrity and politics don't mix.\"",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6658
+  },
+  {
+    "id": 135,
+    "text": "Lawmakers agree to new ban on Internet taxes WASHINGTON, Nov 19 (AFP) - The House of Representatives on Friday approved a ban on taxing Internet access and online sales, which US President George W. Bush is expected to sign, a sponsor of the bill said.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6471
+  },
+  {
+    "id": 136,
+    "text": "Flu vaccine licence suspended  The UK government has suspended the manufacturing licence of major flu vaccine maker Chiron.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5086
+  },
+  {
+    "id": 137,
+    "text": "Martyn hits century to deny India On the eve of this third Test, Sachin Tendulkar and his close friend Ajit Agarkar made an offering of coconuts at the temple of Ganesh, the elephant-headed god revered among Hindus ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6062
+  },
+  {
+    "id": 138,
+    "text": "Court battle threatens TV deal THE Test series between India and Australia is in danger of being blacked out after a court wrangle over awarding  $US308 million ( $443.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6788
+  },
+  {
+    "id": 139,
+    "text": "Corporate kleptocracy that mirrors Maxwell #39;s world From its opening paragraphs, through scores of scornful sub-headings and on to its bitter conclusion, the Breeden report is a breathtaking assault on Lord Black #39;s activities.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5874
+  },
+  {
+    "id": 140,
+    "text": "US Chief Justice Unable to Work Next Week-Report (Reuters) Reuters - U.S. Chief Justice William H. Rehnquist, who was diagnosed with thyroid cancer in October, will not be present when the Supreme Court reconvenes next week to hear oral arguments, the Washington Post reported.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5714
+  },
+  {
+    "id": 141,
+    "text": "Five eye Sicilian bridge contract Five groups will compete for a contract to build a long-awaited bridge linking Sicily with mainland Italy, reports from Italy say.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.3788
+  },
+  {
+    "id": 142,
+    "text": "You #39;ll be back, Arnie tells Japan HE was last in Japan as the Terminator, while he was away he became the Governator, and now he #39;s back as ... what, the Promotivator?",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.547
+  },
+  {
+    "id": 143,
+    "text": "Bacall Balks After Kidman Called 'Legend' LONDON - How old is a movie legend? Definitely older than 37-year-old Nicole Kidman, according to screen veteran Lauren Bacall. Bacall became irritated during an interview with Britain's GMTV Wednesday when the younger actress was described as \"a legend.\"  \"She's not a legend,\" Bacall said, cutting off interviewer Jenni Falconer in mid-sentence...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5708
+  },
+  {
+    "id": 144,
+    "text": "NESN's Red Sox video world-class NESN's  quot;Faith Rewarded: The Historic Season of the 2004 Boston Red Sox quot; hits the retail stores today in both DVD and VHS formats.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5866
+  },
+  {
+    "id": 145,
+    "text": "Huge risk of building US factories paid off for both Honda, Ohio Vicky Burress was 47 when she realized her family needed a second income to put two children through college. Despite a thin rsum a high school ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6698
+  },
+  {
+    "id": 146,
+    "text": "Indians retrieve Himalayan bodies Mountaineers retrieve three bodies believed to have been buried for 22 years on an Indian glacier.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6566
+  },
+  {
+    "id": 147,
+    "text": "PayPal Getting Back to Normal after Outage PayPal began getting back to normal Tuesday afternoon and improved significantly on Wednesday after a 4-day intermittent problem left many users unable to access their accounts.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5275
+  },
+  {
+    "id": 148,
+    "text": "Couple Pleads Guilty to Smuggling Aliens A couple pleaded guilty Friday to charges of smuggling dozens of illegal immigrants from Peru and forcing them into \"virtual servitude\" to pay for their passage.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6015
+  },
+  {
+    "id": 149,
+    "text": "A modified R24 for China The R24 has undergone several revisions ahead of the Chinese Grand Prix. Technical Director Bob Bell explains what's new.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6419
+  },
+  {
+    "id": 150,
+    "text": "Yahoo has problem with the Nazis YAHOO #39;S BID to stop two French groups stopping it selling neo-nazi paraphernalia are having a job convincing the US court system to intervene.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6761
+  },
+  {
+    "id": 151,
+    "text": "Junk 'Tree' Testifies to Beirut's Waste Problem (Reuters) Reuters - Environmentalists built a giant Christmas tree out of garbage in Beirut on Thursday to pressure the government into cleaning up Lebanon's waste problem.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6032
+  },
+  {
+    "id": 152,
+    "text": "GM, DuPont Adapt to Kyoto Environmental Standards Bush Rejected US companies including General Motors Corp., DuPont Co. and Xerox Corp. are cutting carbon dioxide emissions to remain competitive in European countries that have adopted Kyoto Protocol limits rejected by President George W. Bush.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4211
+  },
+  {
+    "id": 153,
+    "text": "Accoona Launches, But Isn't Ready for Prime Time New search engine Accoona launched with great fanfare last night, but hold the applause. It's a promising start, but testing shows Accoona isn't yet ready to play ball in the big leagues. ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5455
+  },
+  {
+    "id": 154,
+    "text": "Importing Less Expensive Drugs Not Seen as Cure for U.S. Woes Experts say that importing drugs from countries that control their prices would not make drugs cheaper in the U.S.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4538
+  },
+  {
+    "id": 155,
+    "text": "Seniors Take Up Tai Chi and Yoga Across the U.S. By AMBER McDOWELL     NASHVILLE, Tenn. (AP) -- Balanced on one leg like flamingos, a dozen people older than 60 concentrate on staying upright, as they master the basics of tai chi...",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6951
+  },
+  {
+    "id": 156,
+    "text": "State Lawmakers Seek  #39;Robin Hood #39; Alternative PLANO, Texas -- Earlier this week, a state district judge ruled the  quot;Robin Hood quot; plan of funding Texas public schools to be unconstitutional.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6037
+  },
+  {
+    "id": 157,
+    "text": "Edwards blasts new OT rules In Saturday radio address, VP candidate says measure curtails pay at a time workers need it. ATLANTA (CNN) - Calling to mind his days unloading tractor trailers during the summer, Sen. John Edwards blasted ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5477
+  },
+  {
+    "id": 158,
+    "text": "The super rich vs the wretched FOR many people, more so those who believe that unfettered-capitalism is the way forward for the world, the latest listing of billionaires (millionaires excluded, and we speak here in US dollars ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5115
+  },
+  {
+    "id": 159,
+    "text": "Quarter of families struggle to pay their bills, study says One out of every four working American families earns wages so low they struggle to survive financially, according to a report due out today.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5227
+  },
+  {
+    "id": 160,
+    "text": "ESPN in Talks to Set Up European Sports Channel  LONDON (Reuters) - Walt Disney-owned sports channel ESPN is  holding talks with broadcasters in Europe about launching a  European version of its 24-hour U.S. channel.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.4469
+  },
+  {
+    "id": 161,
+    "text": "TSA Keeping Pat-Down Procedures in Place Despite a barrage of complaints, the Transportation Security Administration will continue to require physical pat-downs for some passengers at security checkpoints.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.3489
+  },
+  {
+    "id": 162,
+    "text": "Holidays That are Out of This World It used to be that a trip to Africa or Antarctica qualified as an exotic tourist destination. But cash-rich tourists seeking adventure are now rejecting earthly adventures for destinations that are more out of this world.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.64
+  },
+  {
+    "id": 163,
+    "text": "Alexandria Hospital to Create a Virtual ICU Starting next month, intensive-care patients at Inova Alexandria Hospital will be monitored round the clock by more than doctors and nurses at their bedsides.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.61
+  },
+  {
+    "id": 164,
+    "text": "Famous Faces Add Luster to House Races (AP) AP - Clooney, Paterno, Bird, Sheen: The guest list at a party for Hollywood \"A\"-listers and sports legends? No, just some of famous names running for House seats or helping House candidates around the country.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5294
+  },
+  {
+    "id": 165,
+    "text": "Concerto Buys Rockwell Unit It #39;s the end of an era for both outbound and inbound call centers when Concerto acquires the venerable Firstpoint Contact switch-making operation from Rockwell.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.604
+  },
+  {
+    "id": 166,
+    "text": "YOUR E-MAIL ALERTS We asked those affected by Hurricane Ivan, or those in its path, to e-mail us with their thoughts and experiences. The following are a selection of your replies.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6349
+  },
+  {
+    "id": 167,
+    "text": "The Scam After the Storm? After remnants of Hurricane Gaston hit Richmond, Michael Wright's 1999 Honda CR-V sat under water just blocks from his office for three days before a towing company hauled it away.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6836
+  },
+  {
+    "id": 168,
+    "text": "Eiffel Tower Opens Elevated Skating Rink (AP) AP - Holiday on ice takes on new meaning when you're high above the rooftops of Paris doing figure eights inside the Eiffel Tower. During the 115 years of the Eiffel Tower's existence, it has added refreshment stands, trinket shops and fancy restaurants  #151; but nothing quite matches the skating rink in the sky that opened to the public Friday.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4346
+  },
+  {
+    "id": 169,
+    "text": "A Hollywood Play For Dreamers Only In Shark Tale, DreamWorks Animation #39;s latest hit, a little hustler of a fish named Oscar (voiced by Will Smith) just can #39;t stand the truth.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5456
+  },
+  {
+    "id": 170,
+    "text": "Frayed Nerves and Aftershocks Create Panic in Southern Asia Three aftershocks ultimately led to officials in India issuing what amounted to a false alarm.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4871
+  },
+  {
+    "id": 171,
+    "text": "Mrs Crocodile Dundee, 60, wrestles with reptile to save camper  quot;The crocodile walked into the tent and dragged the man out. A 60-year-old woman in an adjacent tent heard the commotion and jumped on the crocodile quot; - Stephen Pemberthy, Royal Flying Doctor Service.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6075
+  },
+  {
+    "id": 172,
+    "text": "Govt slashes price of kerosine President Olusegun Obasanjo yesterday directed that the price of kerosene be slashed immediately. He did not however give a benchmark for the price.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6195
+  },
+  {
+    "id": 173,
+    "text": "Game Puts Players in Kerry's Swift Boat (AP) AP - An upcoming video game lets players re-enact the Swift boat mission in Vietnam that won Sen. John Kerry a Silver Star award for battlefield heroism.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5756
+  },
+  {
+    "id": 174,
+    "text": "Dogged Crying, Lower IQ Linked Babies older than 3 months who cry uncontrollably without reason are at greater risk of suffering from lower IQ, hyperactivity and discipline problems in childhood, new research has found.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6378
+  },
+  {
+    "id": 175,
+    "text": "Competitors voice pride in being pioneers as women #39;s wrestling &lt;b&gt;...&lt;/b&gt; This was not one for the books. It was one for the looks. How many times had Sara McMann seen the look? She would tell people she was a wrestler, and their eyebrows would ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6948
+  },
+  {
+    "id": 176,
+    "text": "Winners With Wallets Economic size wields major influence over how well a nation does at the Olympics.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6843
+  },
+  {
+    "id": 177,
+    "text": "Henman thrives on lone mission FOR so long written off as a perennial contender at Wimbledon but nowhere else, Tim Henman has stood convention on its head this year.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6819
+  },
+  {
+    "id": 178,
+    "text": "2D Metal Slug offers retro fun Like some drill sergeant from the past, Metal Slug 3 is a wake-up call to today's gamers molly-coddled with slick visuals and fancy trimmings.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.7077
+  },
+  {
+    "id": 179,
+    "text": "Justice Dept. Seeks  #36;2.5 Bln from Rigas (Reuters) Reuters - The Justice Department has asked a judge to enter a  #36;2.53 billion judgment against two Rigas family members, citing the amount it claims the Adelphia Communications Corp. founders obtained illegally, court documents released on Tuesday show.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5448
+  },
+  {
+    "id": 180,
+    "text": "Sorenstam aims for fourth straight Mizuno Classic With President George W. Bush asking for four more years in the White House and senator John Kerry campaigning for his first four, Annika Sorenstam is only looking for one more, as in one more win at the Mizuno Classic.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.7318
+  },
+  {
+    "id": 181,
+    "text": "Poverty Up as Welfare Enrollment Declines Though the number of welfare recipients continues to decline, poverty rates -- particularly for single mothers and children -- have surged in recent years.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6178
+  },
+  {
+    "id": 182,
+    "text": "Eurostar turns 10 years old LONDON, England -- Eurostar, the high-speed passenger services, is celebrating 10 years of service between Britain, France and Belgium.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.517
+  },
+  {
+    "id": 183,
+    "text": "Tom Ridge Steps Down as Chief of Homeland Security Dept. The resignation would be effective Feb. 1, unless a successor was confirmed before then, Tom Ridge said.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5513
+  },
+  {
+    "id": 184,
+    "text": "Customers flex bargaining muscles Sometimes you don #39;t have to dress up as a superhero to get what you want. While some are scaling London #39;s most famous landmarks to make their point on paternal access rights, IT buyers are taking a more practical approach to lobbying vendors.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5919
+  },
+  {
+    "id": 185,
+    "text": "Fall offers fine gazing Early autumn is a fine time for stargazers, with generally clear skies, moderate temperatures and darkness falling earlier and earlier in the evenings.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5636
+  },
+  {
+    "id": 186,
+    "text": "Sunday Halloween Irks Some in Bible Belt NEWNAN, Ga. - Across the Bible Belt this Halloween, some little ghosts and goblins might get shooed away by the neighbors - and some youngsters will not be allowed to go trick-or-treating at all - because the holiday falls on a Sunday this year...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5405
+  },
+  {
+    "id": 187,
+    "text": "Lanka may withdraw  $5 million SCI suit Sri Lanka Telecom will shortly withdraw its  $5 million suit filed against Shipping Corp. of India Ltd (SCI) for allegedly damaging the islands main submarine telecommunications cable, Sudhir S Rangnekar, director, liner, SCI, said on Friday.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5541
+  },
+  {
+    "id": 188,
+    "text": "The aliens aren #39;t coming, yet Despite all the reports about SETI discovering a likely signal from an alien civilisation, you shouldn #39;t squint skywards just yet looking for a spherical disc from which little green men will hop out.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6378
+  },
+  {
+    "id": 189,
+    "text": "Ex-employee: Spyware maker used Rochester club The longtime general manager of a defunct city nightclub says his former boss is not telling the truth about the clubs role in a computer spyware operation.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4455
+  },
+  {
+    "id": 190,
+    "text": "Assessment of Yukos Unit Fluctuates (AP) AP - An independent assessor valued Yukos' main production unit at  #36;14.7 billion to  #36;17.3 billion on Thursday, the same day a news agency reported that a controlling stake in the business could be sold for just over  #36;4 billion.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6893
+  },
+  {
+    "id": 191,
+    "text": "Japan expected to remain quiet on yuan TOKYOWhen the United States demands at this week #39;s Group of Seven meeting that China loosen its grip on the yuan, Japan is expected to say little and try to avoid being drawn into the debate between the country #39;s two biggest trading partners.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6479
+  },
+  {
+    "id": 192,
+    "text": "Funding cuts threaten bee health Funding cuts to Britain's bee inspectors could worsen the effects of hive diseases, a lobby group says.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4192
+  },
+  {
+    "id": 193,
+    "text": "The Ballad of Shaikh Ahmed THE guy exudes an aura of sure-fire confidence - the confidence that is based on his burning desire to excel. Shaikh Ahmed Mohammed Hasher Al Maktoum expects to be successful - and he invariably is. ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5327
+  },
+  {
+    "id": 194,
+    "text": "Colo. Voting Woes Rise As Election Nears (AP) AP - Colorado could end up writing an ugly sequel to the Florida election nightmare of four years ago.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.7192
+  },
+  {
+    "id": 195,
+    "text": "Supreme Court Won #39;t Weigh Net Music Lawsuit Tactics The US Supreme Court on Tuesday declined to examine a lower-court ruling that forces music-industry investigators to file a lawsuit to uncover the identities of people who may be copying their songs online.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5399
+  },
+  {
+    "id": 196,
+    "text": "Lawyers hold high noon in Marlboro Lights case SPRINGFIELD -- Lawyers squared off Wednesday over whether the Illinois Supreme Court should overturn the largest verdict for damages in the state #39;s history: a  $10.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6465
+  },
+  {
+    "id": 197,
+    "text": "In '04 Florida, Lawsuits Begin Before Election Florida is already teeming with lawsuits charging the state and its county elections supervisors with voter disenfranchisement.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.693
+  },
+  {
+    "id": 198,
+    "text": "2 Ex-I.R.S. Lawyers' Licenses Suspended for Misconduct The law licenses of two former Internal Revenue Service lawyers have been suspended after they defrauded the courts so that the I.R.S. could win 1,300 tax shelter cases.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5276
+  },
+  {
+    "id": 199,
+    "text": "More flu vaccine available from Germany, but deal with Canada &lt;b&gt;...&lt;/b&gt; More flu vaccine, this time from Germany, will be available to help alleviate the US crunch, but that still will leave the country with just two-thirds of what was initially expected.",
+    "true_label": "Business",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.3506
+  },
+  {
+    "id": 200,
+    "text": "They fall in love despite social gap, distance He was a young lieutenant, she was the daughter of a general. But the difference in status didn #39;t stop Indonesia #39;s first couple from marrying.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5915
+  },
+  {
+    "id": 201,
+    "text": "Spellbinding Planets You won't want to miss this:  Venus and Jupiter, the two brightest planets, will be beautifully close together just before sunrise on Thursday, Nov. 4th, and Friday, Nov. 5th. ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.564
+  },
+  {
+    "id": 202,
+    "text": "Survey: Consumers Cautious on U.S. Economy (AP) AP - Consumers became a bit more optimistic toward the end of the August but still felt more cautious on the U.S. economy than they did a month ago, according to survey by the University of Michigan.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.512
+  },
+  {
+    "id": 203,
+    "text": "US: AB to launch caffeinated Budweiser Anheuser-Busch has launched a caffeine-infused version of its leading Budweiser brand. The beer, called B(E) will also contain guarana and ginseng.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5826
+  },
+  {
+    "id": 204,
+    "text": "Lawyers Not Close Lawyers on both sides of Atlanta's Dany Heatley's vehicular homicide case said Monday they are not close to agreeing on a plea deal that would keep his case from going before a jury.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.4619
+  },
+  {
+    "id": 205,
+    "text": "Are You A Comfort Addict? Do you find yourself unsatisfied, but unable to work out why?  Do you find yourself nodding during Fight Club when Tyler Durden tells his recruits that their struggle is a philosophical one... only to be dismayed with his idea of a solution?  Is everything okay, but nothing great?    You could well be a comfort addict. ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5558
+  },
+  {
+    "id": 206,
+    "text": "A retooled Draper now makes what it devises CAMBRIDGE -- The hunt for terror-thwarting technology has brought an unexpected revenue boost -- and a new in-house production burden -- to a research lab best known for its work on submarine missile guidance and navigation during the Cold War.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5288
+  },
+  {
+    "id": 207,
+    "text": "Battle heightens over San Francisco bridge costs Plagued by delays and cost overruns, a  $5.1 billion renovation of San Francisco #39;s Bay Bridge has run into added problems as the state refuses to pay for ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5849
+  },
+  {
+    "id": 208,
+    "text": "Fantino #39;s retirement party planned TORONTO -- It #39;s hush-hush, but people in the know are penciling in Feb. 24 to say goodbye to Toronto police Chief Julian Fantino.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6071
+  },
+  {
+    "id": 209,
+    "text": "Eye scanner project scrapped A futuristic eye scanner system at a Wearside school is scrapped because it is too slow.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6808
+  },
+  {
+    "id": 210,
+    "text": "Is Petro-Can sale tied to Kyoto revival? A few days ago, under the cover of darkness, the Ottawa Liberals #39; shiny new Environment Minister Stephane Dion slipped into Alberta to make a speech.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.61
+  },
+  {
+    "id": 211,
+    "text": "How To Film A Phantom The screen version of the international stage hit is finally here. Can it revive the Hollywood musical?",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4996
+  },
+  {
+    "id": 212,
+    "text": "Report: Argos settle on York U site The Toronto Argonauts are set to announce York University as the location of their new stadium, according to several published reports.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6597
+  },
+  {
+    "id": 213,
+    "text": "Mickelson signs on as face of Callaway The Carlsbad golf company said yesterday that it has signed Phil Mickelson, the reigning Masters champ, to a long-term deal to use and endorse its equipment.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.5971
+  },
+  {
+    "id": 214,
+    "text": "Two educators are among year #39;s Milken recipients; each gets &lt;b&gt;...&lt;/b&gt; Lesa Martin and Jaunee Perry work for different school districts, but they have two things in common. Both women are dedicated teachers who strive to inspire and enrich the lives ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6143
+  },
+  {
+    "id": 215,
+    "text": "Monster in the house Tanned bodies sway to an intense Latin beat on a sticky night at Pravda 116. Here, the rakish clientele knows its house music almost as well as it knows the new Versace fall line. And tonight it likes what it hears.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5258
+  },
+  {
+    "id": 216,
+    "text": "Heinz Kerry Reports Nearly  #36;2.3M in 2003 (AP) AP - Teresa Heinz Kerry made nearly  #36;2.3 million in 2003 and had a federal and state tax bill of close to  #36;800,000, according to tax forms filed Friday.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6711
+  },
+  {
+    "id": 217,
+    "text": "Real \"Danny Deckchairs\" Soar With Just a Seat and Some Balloons In the new movie &lt;i&gt;Danny Deckchair,&lt;/i&gt; a truck driver ties party balloons to a chair and flies away. It's called cluster ballooning, and believe it or not, it's a real sport.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6302
+  },
+  {
+    "id": 218,
+    "text": "Blair's 'Freebie' Summer Holidays Irk Britons  LONDON (Reuters) - Two continents. Three luxury mansions  courtesy of friends. Endless sun and sea. And a front-row seat  for the Olympics to boot.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5749
+  },
+  {
+    "id": 219,
+    "text": "A far cry from smoke-filled reporters' havens of past Reporters who tire of searching for real news at New York's Republican National Convention next week -- or who just want a safe haven from their editors -- can look forward to some downtime in a private hideaway just for them.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.3375
+  },
+  {
+    "id": 220,
+    "text": "Hip-Hop's New World to Conquer: Your Phone At the top of Billboard magazine's Hot Ringtones chart: Snoop Dogg and Pharrell's \"Drop It Like It's Hot.\"",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6565
+  },
+  {
+    "id": 221,
+    "text": "Device 'may aid kidney dialysis' Scientists are developing a device which could improve the lives of kidney dialysis patients.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6476
+  },
+  {
+    "id": 222,
+    "text": "Ex-Wal-Mart Exec Pleads Guilty to Kickback (AP) AP - A former Wal-Mart Stores Inc. executive pleaded guilty to taking a kickback from a supplier to the world's largest retailer.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5109
+  },
+  {
+    "id": 223,
+    "text": "Indian hostages set to return home After 42 days in captivity, the three Indian truckers are all set to fly back home today. They are currently in Kuwait and would be taking a special flight back home later tonight.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5708
+  },
+  {
+    "id": 224,
+    "text": "Nevada Stages Huge Rib Cook-Off SPARKS, Nev. - Some 300,000 people are expected to pig out on about 130,000 pounds of pork ribs...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.517
+  },
+  {
+    "id": 225,
+    "text": "Inquest begins into croc attack A coronial inquest begins today into a fatal crocodile attack on a German tourist in Kakadu National Park more than 18 months ago.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6041
+  },
+  {
+    "id": 226,
+    "text": "Mind Over Matter Neuroscientists and biomedical engineers have become increasingly adept at making devices that translate people's thoughts into actions -- a potential boon for paralyzed patients.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5717
+  },
+  {
+    "id": 227,
+    "text": "A.C.L.U.'s Search for Data on Donors Stirs Privacy Fears The A.C.L.U. is collecting information in a fund-raising effort that has ignited a debate over its commitment to privacy rights.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5521
+  },
+  {
+    "id": 228,
+    "text": "Canada draws bead on Imperial Tobacco Canadian authorities have raided the offices of Imperial Tobacco in their hunt for evidence of cigarette smuggling during the late 1980s and early 1990s.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6211
+  },
+  {
+    "id": 229,
+    "text": "Huge eagles 'dominated NZ skies' A massive eagle which became extinct five centuries ago was once New Zealand's chief predator, scientists believe.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5567
+  },
+  {
+    "id": 230,
+    "text": "Child suicides high in Shanghai A recent study says that one-quarter of the youths in China's wealthiest city have considered taking their own lives.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6842
+  },
+  {
+    "id": 231,
+    "text": "Supreme Court Limits Trademark Protection By Bloomberg News. The United States Supreme Court limited the scope of federal trademark protection yesterday, saying that rival companies in some cases can use proprietary terms even when that might cause confusion among customers.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.559
+  },
+  {
+    "id": 232,
+    "text": "So Alike, Rivals Make It Personal Since World War II, no two candidates have had such strikingly similar backgrounds of class and privilege. So, why do these guys dislike each other so much?",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6571
+  },
+  {
+    "id": 233,
+    "text": "Losses rise at British Energy after nuclear shutdowns British Energy, the nuclear generator, said its first-half losse had tripled following the unexpected closure of two nuclear power plants.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5504
+  },
+  {
+    "id": 234,
+    "text": "Renewable energy may be offered by Empire Empire Electric #39;s 15,000 member-owners may be able to get all or part of their electricity from renewable sources starting in January.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5698
+  },
+  {
+    "id": 235,
+    "text": "Spitzer to Run for Governor in New York (AP) AP - New York Attorney General Eliot Spitzer, whose white-collar crime investigations have sent a shudder through Wall Street, announced Tuesday he is running for governor in 2006.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6316
+  },
+  {
+    "id": 236,
+    "text": "A River Pulled in Two Directions The Lower Delaware, site of a recent oil spill, seems as if it has been mistakenly stuck at the end of the pristine Upper Delaware.",
+    "true_label": "World",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.3192
+  },
+  {
+    "id": 237,
+    "text": "No quick sex, please, we #39;re British A survey produced by condom maker Durex - who else? - shows that we spend 22.5 minutes in foreplay, 36 seconds ahead of the German runners-up and more than three minutes more than the so-called sexy French.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6229
+  },
+  {
+    "id": 238,
+    "text": "Kevin Spacey #39;s Darin biopic hits Toronto festival Late music legend Bobby Darin has taken centre stage at the Toronto International Film Festival with the world premiere of  quot;Beyond the Sea, quot; Kevin Spacey #39;s impassioned biopic of the  quot;Mack the Knife quot; singer.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6236
+  },
+  {
+    "id": 239,
+    "text": "Craigslist posting offers political fist-fight Wanted: One Bush supporter--but not for long walks on the beach, candle-lit dinners or spooning on winter mornings. Missing Links",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6494
+  },
+  {
+    "id": 240,
+    "text": "Monsanto Says Justice Dept Closes Inquiry (Reuters) Reuters - Monsanto Co. (MON.N) on Wednesday said the U.S. Justice Department has closed an inquiry into potential antitrust issues regarding a key ingredient used in its Roundup herbicide.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6761
+  },
+  {
+    "id": 241,
+    "text": "Roses in the Pig Sty Whenever an entire industry is beset by scandal, look for the participants who are clean.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6771
+  },
+  {
+    "id": 242,
+    "text": "Conan O'Brien to Succeed Jay Leno in 2009, NBC Announces Conan O'Brien will succeed Jay Leno as host of the \"Tonight\" show at the end of Mr. Leno's current five-year contract.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5764
+  },
+  {
+    "id": 243,
+    "text": " Dockers seek conciliation help Union officials and leaders at AB Ports are meeting conciliation experts to try to reach an agreement in the docks crisis.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6221
+  },
+  {
+    "id": 244,
+    "text": "More security worries The end of the year is nigh and parties are flexing our patience across the land. But Michael Herman warns the festive cheer and goodwill is not shared by online criminals.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6468
+  },
+  {
+    "id": 245,
+    "text": "Court could allow out-of-state wine to flow into Michigan The US Supreme Court will soon decide whether Michigan wine drinkers should be able to buy a case of California merlot or Virginia chardonnay directly from the vintners.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6402
+  },
+  {
+    "id": 246,
+    "text": "Canon posts record profit as digital camera boom continues (AFP) AFP - Japan's Canon Inc. said it posted a record profit for the three months to September due to strong overseas demand for digital cameras, especially in Europe, and revised up its full-year earnings forecast.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6319
+  },
+  {
+    "id": 247,
+    "text": "Ah, the whiff of a very old yolk It is one of the world #39;s oldest questions: Why did the chicken cross the road? It might seem like a  #39;poultry #39; subject to weigh on the minds of hundreds of scientists, but research published yesterday has brought us a little closer to the answer.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6406
+  },
+  {
+    "id": 248,
+    "text": "Jury Finds 2 Guilty of Felony Spam Two North Carolina residents yesterday became the first people in the nation to be convicted on felony spamming charges after a Loudoun County jury found that they flooded tens of thousands ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6963
+  },
+  {
+    "id": 249,
+    "text": "Jo #39;burg Airport is Prettiest, Schiphol Most Fun ARRIVING at Amsterdam #39;s Schiphol airport after an overnight flight, I faced a four-hour wait for my onward trip to London. It was a dismal prospect and the rain tapping at the windows did little to lift my spirits - but Schiphol managed to.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4652
+  },
+  {
+    "id": 250,
+    "text": "Millions Flee Hurricane Frances Two-and-a-half million people have been told to get out of the way of hurricane Frances. #39; #39;. The storm is aiming at a 480-kilometre stretch of Florida #39;s Atlantic coast.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5056
+  },
+  {
+    "id": 251,
+    "text": "Snooker: Eddie Charlton dies Australian snooker star Eddie Charlton dies in New Zealand following an operation.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6564
+  },
+  {
+    "id": 252,
+    "text": "Not as Much Ventured, but More to Gain? WHEN members of the Early Stage Venture Capital Alliance gathered here last month for its annual golf outing, the conversation turned - as it invariably does when venture capitalists congregate ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5291
+  },
+  {
+    "id": 253,
+    "text": "UK teacher wins US ultra-marathon  A Cornish teacher claims one of sport's endurance crowns by winning a 3,100-mile race across the US.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4378
+  },
+  {
+    "id": 254,
+    "text": "In Autism, New Goal Is Finding It Soon Enough to Fight It Across the country, thousands of toddlers are joining studies that could signal new hope for a baffling childhood disorder.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.4956
+  },
+  {
+    "id": 255,
+    "text": "Reporting Rip-Offs  (As Seen on TV!) Whether it's the latest miracle ab exerciser, a get-rich-quick scheme or a weight-loss supplement, many of those call-now-and-order products hyped on infomercials and TV shopping networks are nothing more than tacky junk. Separating the rip-offs from the useful gadgets isn't always easy.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.7145
+  },
+  {
+    "id": 256,
+    "text": "Grover #39;s making name with mane a huge mass of unruly brown locks perched upon his head that forced him to go up a helmet size -- or Purdue #39;s 4-0 start that has gotten him a little notoriety on campus.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.7026
+  },
+  {
+    "id": 257,
+    "text": "Volvo, Saab  #39;top in whiplash protection #39; Volvo and Saab cars offer the bestwhiplash protection in rear-end crashes, an automobile safety watchdog has said. The Swedish automakers #39; seat backs and headrests minimise differences in the forces on the ",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4909
+  },
+  {
+    "id": 258,
+    "text": "Production Up at 3 Japanese Automakers (AP) AP - Production in Japan rose at three of the nation's top five automakers in September from a year ago, but was down at scandal-hit Mitsubishi Motors Corp. as well as at Nissan Motor Co., according to figures released Tuesday.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6222
+  },
+  {
+    "id": 259,
+    "text": "Quick action urged on LAX #39;s security fixes RAND report examines attack scenarios. One suggestion is eliminating long ticket lines in terminal lobbies. By Ian Gregor and David Zahniser.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.438
+  },
+  {
+    "id": 260,
+    "text": "Newman looks forward to a fresh start Motorsport.com. Loudon, New Hampshire is a long way from the South Pacific island region of Vanuatu, but the two places may have more in common than ever before.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.7006
+  },
+  {
+    "id": 261,
+    "text": "Scotland now 16th in world for ecological impact WHEN Scots turn up the heat the rest of the world dies a little, a report by an international conservation charity claimed yesterday.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4324
+  },
+  {
+    "id": 262,
+    "text": "BEST Magazine #39;s best stuff of the season From fitness and photography to home entertainment and hi-definition computing BEST Magazine Senior Editor David Gregg has got the goods on some of the BEST STUFF of the season.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6266
+  },
+  {
+    "id": 263,
+    "text": "Formula One Race Features China #39;s New Taste for Luxury If any doubts remained that China has turned its back on socialist equality for the masses, they faded in the exhaust fumes Sunday as Rubens Barrichello #39;s flaming red Ferrari ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6841
+  },
+  {
+    "id": 264,
+    "text": "A peak performance MORGANTOWN, W.Va. -- We can only imagine how enjoyable that flight home was for the Boston College party.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.668
+  },
+  {
+    "id": 265,
+    "text": "Nissan Motor stops work at four plants Nissan Motor, the Japanese carmaker, has been forced to stop production at three of its four car assembly plants in Japan for five working days after running out ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.621
+  },
+  {
+    "id": 266,
+    "text": "Truth Wizards: They know a lie when they hear it WASHINGTON Can you always tell when somebody #39;s lying? If so, you might be a wizard of the fib. A California psychology professor says there #39;s a tiny subculture of people that can pick out a lie nearly every time they hear one.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5478
+  },
+  {
+    "id": 267,
+    "text": "TAIKO: Drum Master Think you #39;ve got rhythm? Test out your skill with TAIKO: Drum Master a new game for the whole family! Attach the miniature Japanese drum controller to your PS2 and you #39;re ready to drum to the music.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.661
+  },
+  {
+    "id": 268,
+    "text": "Vegetarians see red over Smarties colouring THERE are green ones, yellow ones and even blue ones. But how many beetle-coloured Smarties have you tried? Red Smarties get their bright colour from a dye made from dried and crushed insects.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.7314
+  },
+  {
+    "id": 269,
+    "text": "Schools sue over special-ed funding Eleven school districts filed a lawsuit Thursday aimed at forcing the state to pay more for special education. The school districts, including Bethel and Federal Way, collectively represent more than 20,000 special-education students.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.5211
+  },
+  {
+    "id": 270,
+    "text": "Ransacked Bills 0 for 2 in sloppy loss (September 20, 2004) - OAKLAND, Calif. -ike Mularkey had his back against a cement block wall deep inside Network Associates Coliseum late Sunday.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6344
+  },
+  {
+    "id": 271,
+    "text": "Frances Seen Less Costly Than Feared (Reuters) Reuters - Though high winds and flooding generated billions of dollars in damage in Florida, Hurricane Frances is expected to be less costly for insurers than feared, analysts and industry officials said on Monday.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6986
+  },
+  {
+    "id": 272,
+    "text": "Calif. Horse Country Wary of West Nile NORCO, Calif. - Rowdy, a 4-year-old horse, got sick after splashing through the Santa Ana River on a training ride...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6045
+  },
+  {
+    "id": 273,
+    "text": "Saks 5th Avenue Names President, COO (AP) AP - High-end retailer Saks Inc. on Friday said it named Andrew Jennings as president and chief operating officer of Saks Fifth Avenue.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.451
+  },
+  {
+    "id": 274,
+    "text": "The Cuban Biotech Revolution Embargo or not, Fidel Castro's socialist paradise has quietly become a pharmaceutical powerhouse. (They're still working on the capitalism thing.) By Douglas Starr from Wired magazine.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6845
+  },
+  {
+    "id": 275,
+    "text": "Long and the short of it is we are still record breakers A BASSET hound living in Germany has just made it into the 50th anniversary edition of the Guinness Book of Records for possessing the longest canine ears in the world, measuring a fine 33.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.584
+  },
+  {
+    "id": 276,
+    "text": "Palm Beach: Relief underway With only the remnants of Hurricane Frances still around, the relief has begun in Palm Beach County. Officials began setting up five ",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.6998
+  },
+  {
+    "id": 277,
+    "text": "Election Is Crunch Time for U.S. Secret Service With just days to go before the U.S. presidential election, the candidates are darting from one stop to the next #151;putting the pressure on the Secret Service in the process.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6304
+  },
+  {
+    "id": 278,
+    "text": "Late surge after quiet day sees Dow at highest level for months AFTER an slow start as Wall Street took a breather after Thursdays rally, a late surge saw the Dow finish almost 70 points ahead, topping the significant 10,500 mark.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.7265
+  },
+  {
+    "id": 279,
+    "text": "Dream of London to Sydney trip in two hours If clear skies break over southern California on Monday, a B-52 bomber will take off from Edwards air force base and head out over the Pacific.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.3546
+  },
+  {
+    "id": 280,
+    "text": "IPO for new Saudi mobile company opens October 16 (AFP) AFP - The initial public offering (IPO) of shares in the newly established Saudi mobile phone company led by the United Arab Emirates' Etisalat will start October 16, the head of the Capital Market Authority announced.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6487
+  },
+  {
+    "id": 281,
+    "text": "End of broadsheet Times 216 years of publishing history ends on Monday, as The Times switches to a tabloid format. The decision to go fully compact - after trials in London and around the country - was made after sales of the newspaper jumped 4.5 per cent.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6513
+  },
+  {
+    "id": 282,
+    "text": "Wineries in South Africa give a boost to blacks ELGIN VALLEY, South Africa -- When South Africa held its first fully democratic elections in 1994, Patrick Kraukamp, a day laborer, was just starting a job as a forklift driver at the Paul Cluver wine estate in this lush mountain valley.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.4646
+  },
+  {
+    "id": 283,
+    "text": "Bush site bars overseas visitors People based outside the US have been unable to visit the re-election website of President Bush.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.4567
+  },
+  {
+    "id": 284,
+    "text": "Tanker spills more than 100,000 litres of oil into Delaware River &lt;b&gt;...&lt;/b&gt; A tanker spilled about 114,000 litres of crude oil into the Delaware River between Philadelphia and southern New Jersey, creating a 32-kilometre-long slick that killed dozens of birds and threatened other wildlife, US officials said ",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.4811
+  },
+  {
+    "id": 285,
+    "text": "Bush Surveys Damage in Florida as Toll Is Expected to Mount Hurricane Charley - one of the most powerful storms in the nation's history - caused at least  $20 billion in damage in Florida alone.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6018
+  },
+  {
+    "id": 286,
+    "text": "Canadians Seek Ban on Americans' Drug Shopping By COLIN McCLELLAND     TORONTO (AP) -- Canadians must stop Americans from using Internet pharmacies to raid its medicine chest or face a drug shortage, a coalition of Canadian groups representing seniors, pharmacies and patients has warned.    The groups, claiming to represent 10 million Canadians, or about one-third the population, called on the Canadian government Monday to ban prescription drug exports...",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5911
+  },
+  {
+    "id": 287,
+    "text": "Migrants #39; ordeal ugly side of paradise Pleasant visions of fun in the sun in the Dominican Republic are being shattered by sad images of residents being smuggled away on wooden boats, only to perish at sea. ",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.668
+  },
+  {
+    "id": 288,
+    "text": "For want of a photo, agreement is lost IF IT looks insane, that is because it is. An agreement so comprehensive in scope, so profound in implication and so improbable after so much history seems to have been brought down by a dispute about a photograph.",
+    "true_label": "World",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.3168
+  },
+  {
+    "id": 289,
+    "text": "Goodbye, Numminen Thomas Jefferson once wrote, \"Were it left to me to decide whether we should have a government without newspapers, or newspapers without a government, I should not hesitate a moment to prefer the latter.\" Similarly, if it were left to me to decide on a winter without hockey, or hockey without winter, I'd actually lean toward a Thrashers-Wild tilt.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6339
+  },
+  {
+    "id": 290,
+    "text": "No decline in Amazon deforestation BRASILIA, Brazil - Nearly 9,000 square miles of the Amazon have been destroyed this year, the government said on Wednesday, while an environmental group blamed work on a new highway as the chief reason.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.6448
+  },
+  {
+    "id": 291,
+    "text": "Rubens on hunt for rent-a-bed China #39;s fastest driver, Rubens Barrichello, would rather rent a bed on the main straight of the Formula One track than commute to a Shanghai hotel every day.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.6631
+  },
+  {
+    "id": 292,
+    "text": "Sportsview: Attitude Change May Help U.S. (AP) AP - The Americans have run out of explanations, but not excuses.",
+    "true_label": "Sports",
+    "classifier_pred": "Sports",
+    "classifier_confidence": 0.7111
+  },
+  {
+    "id": 293,
+    "text": "Boeing fires airborne laser as part of missile defense A Boeing Co.-led team has succeeded in firing a laser beam for the first time as part of a ballistic missile defense shield, the Pentagon and the Boeing Co.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5141
+  },
+  {
+    "id": 294,
+    "text": "Tiger Woods Weds Swede Model in Barbados LANE BEACH, Barbados - Tiger Woods is now a married man, according to People magazine and several other news outlets. People reported on its Web site that the world's most famous golfer married Swedish model Elin Nordegren in a sunset ceremony at a resort in Barbados on Tuesday...",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.5439
+  },
+  {
+    "id": 295,
+    "text": "Criticism over new proposal on working hours The European Commission has proposed strict limitations on the opt-out clause from the so-called Working Time Directive, which would give workers in the European Union the right to refuse to work more than 48 hours per week.",
+    "true_label": "World",
+    "classifier_pred": "World",
+    "classifier_confidence": 0.6243
+  },
+  {
+    "id": 296,
+    "text": "Summary: New Drug Fights Breast Cancer (AP) AP - THE REPORT: Doctors are reporting that a new breast cancer drug, Arimidex, and others in its class outperform the tried-and-true tamoxifen at preventing recurrence in older women.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5568
+  },
+  {
+    "id": 297,
+    "text": "Airbus Tests GSM TOULOUSE, France -- Airbus has successfully completed the first in-flight trial of GSM personal mobile- telephones aboard an airliner, paving the way for their future widespread use.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.668
+  },
+  {
+    "id": 298,
+    "text": "Europe urged to embrace GM foods A conference on genetically-modified crops opens in Germany with calls for Europe to take up GM foods.",
+    "true_label": "Sci/Tech",
+    "classifier_pred": "Sci/Tech",
+    "classifier_confidence": 0.5531
+  },
+  {
+    "id": 299,
+    "text": "Charitable Giving Washington Post staff writer Jacqueline Salmon will be online to answer your questions on charities and charitable giving.",
+    "true_label": "Business",
+    "classifier_pred": "Business",
+    "classifier_confidence": 0.7474
+  }
+]

@@ -1,0 +1,67 @@
+.box {
+    position: static;
+    width: 100%;
+    max-width: none;
+    left: auto;
+    top: auto;
+    transform: none;
+}
+.movie-pair {
+    display: flex;
+    gap: 20px;
+}
+.movie-card-btn {
+    flex: 1;
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: white;
+    color: #333;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    display: block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0;
+    line-height: 1.4;
+}
+.movie-card-btn:hover {
+    background: #f0f0f0;
+    opacity: 1;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.movie-card {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.movie-card:hover {
+    background: #f0f0f0;
+}
+.movie-card.selected {
+    background: #d4edda;
+    cursor: default;
+}
+.rank-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    background: #333;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
